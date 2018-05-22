@@ -1,0 +1,32 @@
+
+Conversion 8.8 => 8.9
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- /Users/fgielow/git/docker-energyplus/input-files/tagged/in.idf
+   ** Warning ** Invalid Number in Numeric Field#2 (People per Zone Floor Area), value=@@PeOff@@, in People=People 02FFE:OfficeXNEXLED
+   ** Warning ** Invalid Number in Numeric Field#2 (People per Zone Floor Area), value=@@PeOff@@, in People=People 02FFE:OfficeXE
+   ** Warning ** Invalid Number in Numeric Field#2 (People per Zone Floor Area), value=@@PeOff@@, in People=People 02FFE:OfficeXMeetXSE
+   ** Warning ** Invalid Number in Numeric Field#2 (People per Zone Floor Area), value=@@PeOff@@, in People=People 02FFE:OfficeXMeetXSSE
+   ** Warning ** Invalid Number in Numeric Field#2 (People per Zone Floor Area), value=@@PeOff@@, in People=People 02FFE:OfficeXMeetXSSEXLED
+   ** Warning ** Invalid Number in Numeric Field#2 (People per Zone Floor Area), value=@@PeOff@@, in People=People 02FFE:OfficeXNE
+   ** Warning ** Invalid Number in Numeric Field#2 (People per Zone Floor Area), value=@@PeOff@@, in People=People 02FFE:OfficeXN
+   ** Warning ** Invalid Number in Numeric Field#2 (People per Zone Floor Area), value=@@PeOff@@, in People=People 02FFE:OfficeXMeetXSEXLED
+   ** Warning ** Invalid Number in Numeric Field#2 (Watts per Zone Floor Area), value=@@LiLED@@, in Lights=02FFE:OfficeXNEXLED General lighting
+   ** Warning ** Invalid Number in Numeric Field#2 (Watts per Zone Floor Area), value=@@LiOff@@, in Lights=02FFE:OfficeXE General lighting
+   ** Warning ** Invalid Number in Numeric Field#2 (Watts per Zone Floor Area), value=@@LiOff@@, in Lights=02FFE:OfficeXMeetXSE General lighting
+   ** Warning ** Invalid Number in Numeric Field#2 (Watts per Zone Floor Area), value=@@LiOff@@, in Lights=02FFE:OfficeXMeetXSSE General lighting
+   ** Warning ** Invalid Number in Numeric Field#2 (Watts per Zone Floor Area), value=@@LiLED@@, in Lights=02FFE:OfficeXMeetXSSEXLED General lighting
+   ** Warning ** Invalid Number in Numeric Field#2 (Watts per Zone Floor Area), value=@@LiOff@@, in Lights=02FFE:OfficeXNE General lighting
+   ** Warning ** Invalid Number in Numeric Field#2 (Watts per Zone Floor Area), value=@@LiOff@@, in Lights=02FFE:OfficeXN General lighting
+   ** Warning ** Invalid Number in Numeric Field#2 (Watts per Zone Floor Area), value=@@LiLED@@, in Lights=02FFE:OfficeXMeetXSEXLED General lighting
+   ** Warning ** Invalid Number in Numeric Field#2 (Flow per Zone Floor Area), value=@@Infil@@, in ZoneInfiltration:DesignFlowRate=02Plenum:Void Infiltration
+   ** Warning ** Invalid Number in Numeric Field#2 (Flow per Zone Floor Area), value=@@Infil@@, in ZoneInfiltration:DesignFlowRate=02FFE:OfficeXNEXLED Infiltration
+   ** Warning ** Invalid Number in Numeric Field#2 (Flow per Zone Floor Area), value=@@Infil@@, in ZoneInfiltration:DesignFlowRate=02FFE:OfficeXE Infiltration
+   ** Warning ** Invalid Number in Numeric Field#2 (Flow per Zone Floor Area), value=@@Infil@@, in ZoneInfiltration:DesignFlowRate=02FFE:OfficeXMeetXSE Infiltration
+   ** Warning ** Invalid Number in Numeric Field#2 (Flow per Zone Floor Area), value=@@Infil@@, in ZoneInfiltration:DesignFlowRate=02FFE:OfficeXMeetXSSE Infiltration
+   ** Warning ** Invalid Number in Numeric Field#2 (Flow per Zone Floor Area), value=@@Infil@@, in ZoneInfiltration:DesignFlowRate=02FFE:OfficeXMeetXSSEXLED Infiltration
+   ** Warning ** Invalid Number in Numeric Field#2 (Flow per Zone Floor Area), value=@@Infil@@, in ZoneInfiltration:DesignFlowRate=02FFE:OfficeXNE Infiltration
+   ** Warning ** Invalid Number in Numeric Field#2 (Flow per Zone Floor Area), value=@@Infil@@, in ZoneInfiltration:DesignFlowRate=02FFE:OfficeXN Infiltration
+   ** Warning ** Invalid Number in Numeric Field#2 (Flow per Zone Floor Area), value=@@InPlen@@, in ZoneInfiltration:DesignFlowRate=02FFE:OfficeXMeetXSEXLED Infiltration

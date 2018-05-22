@@ -1,0 +1,237 @@
+Program Version:,EnergyPlus, Version 8.9.0-30f4ebd739, YMD=2018.05.22 11:03
+Tabular Output Report in Format: ,Comma
+
+Building:,Building
+Environment:,INOVO TEST (01-05:20-06) ** GLASGOW-AP - GBR Custom-031400 WMO#=031400
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Lighting Summary
+FOR:,Entire Facility
+Interior Lighting
+
+,,Zone,Lighting Power Density [W/m2],Zone Area [m2],Total Power [W],End Use Subcategory,Schedule Name,Scheduled Hours/Week [hr],Hours/Week > 1% [hr],Full Load Hours/Week [hr],Return Air Fraction,Conditioned (Y/N),Consumption [kWh]
+,02FFE:OFFICEXNEXLED GENERAL LIGHTING,02FFE:OFFICEXNEXLED,13.6842,11.42,156.29,ELECTRIC EQUIPMENT#02FFE:OfficeXNEXLED#GeneralLights,OFFICE_OPENOFF_LIGHT,60.07,60.67,6.38,0.0000,Y,5.13
+,02FFE:OFFICEXE GENERAL LIGHTING,02FFE:OFFICEXE,11.5789,175.99,2037.77,ELECTRIC EQUIPMENT#02FFE:OfficeXE#GeneralLights,OFFICE_OPENOFF_LIGHT,60.07,60.67,60.61,0.0000,Y,635.23
+,02FFE:OFFICEXMEETXSE GENERAL LIGHTING,02FFE:OFFICEXMEETXSE,11.5789,18.08,209.39,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSE#GeneralLights,OFFICE_OPENOFF_LIGHT,60.07,60.67,60.64,0.0000,Y,65.30
+,02FFE:OFFICEXMEETXSSE GENERAL LIGHTING,02FFE:OFFICEXMEETXSSE,11.5789,10.84,125.50,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSE#GeneralLights,OFFICE_OPENOFF_LIGHT,60.07,60.67,60.67,0.0000,Y,39.15
+,02FFE:OFFICEXMEETXSSEXLED GENERAL LIGHTING,02FFE:OFFICEXMEETXSSEXLED,13.6842,3.82,52.23,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSEXLED#GeneralLights,OFFICE_OPENOFF_LIGHT,60.07,60.67,60.53,0.0000,Y,16.26
+,02FFE:OFFICEXNE GENERAL LIGHTING,02FFE:OFFICEXNE,11.5789,27.17,314.63,ELECTRIC EQUIPMENT#02FFE:OfficeXNE#GeneralLights,OFFICE_OPENOFF_LIGHT,60.07,60.67,60.67,0.0000,Y,98.16
+,02FFE:OFFICEXN GENERAL LIGHTING,02FFE:OFFICEXN,11.5789,91.26,1056.69,ELECTRIC EQUIPMENT#02FFE:OfficeXN#GeneralLights,OFFICE_OPENOFF_LIGHT,60.07,60.67,6.07,0.0000,Y,32.97
+,02FFE:OFFICEXMEETXSEXLED GENERAL LIGHTING,02FFE:OFFICEXMEETXSEXLED,13.6842,6.50,88.98,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSEXLED#GeneralLights,OFFICE_OPENOFF_LIGHT,60.07,60.67,60.30,0.0000,Y,27.60
+,Interior Lighting Total,,11.7116,345.08,4041.48,,,,,,,,919.81
+
+
+Daylighting
+
+,,Zone,Control Name,Daylighting Method,Control Type,Fraction Controlled,Lighting Installed in Zone [W],Lighting Controlled [W]
+,02FFE:OFFICEXNEXLED REF POINT 1,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED,SplitFlux,Continuous,1.00,156.29,156.29
+,02FFE:OFFICEXE REF POINT 1,02FFE:OFFICEXE,02FFE:OFFICEXE,SplitFlux,Continuous,1.00,2037.77,2037.77
+,02FFE:OFFICEXMEETXSE REF POINT 1,02FFE:OFFICEXMEETXSE,02FFE:OFFICEXMEETXSE,SplitFlux,Continuous,1.00,209.39,209.39
+,02FFE:OFFICEXMEETXSSE REF POINT 1,02FFE:OFFICEXMEETXSSE,02FFE:OFFICEXMEETXSSE,SplitFlux,Continuous,1.00,125.50,125.50
+,02FFE:OFFICEXMEETXSSEXLED REF POINT 1,02FFE:OFFICEXMEETXSSEXLED,02FFE:OFFICEXMEETXSSEXLED,SplitFlux,Continuous,1.00,52.23,52.23
+,02FFE:OFFICEXNE REF POINT 1,02FFE:OFFICEXNE,02FFE:OFFICEXNE,SplitFlux,Continuous,1.00,314.63,314.63
+,02FFE:OFFICEXN REF POINT 1,02FFE:OFFICEXN,02FFE:OFFICEXN,SplitFlux,Continuous,1.00,1056.69,1056.69
+,02FFE:OFFICEXMEETXSEXLED REF POINT 1,02FFE:OFFICEXMEETXSEXLED,02FFE:OFFICEXMEETXSEXLED,SplitFlux,Continuous,1.00,88.98,88.98
+
+
+Exterior Lighting
+
+,,Total Watts,Astronomical Clock/Schedule,Schedule Name,Scheduled Hours/Week [hr],Hours/Week > 1% [hr],Full Load Hours/Week [hr],Consumption [kWh]
+,Exterior Lighting Total,0.00,,,,,,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Energy Meters
+FOR:,Entire Facility
+Annual and Peak Values - Electricity
+
+,,Electricity Annual Value [kWh],Electricity Minimum Value [W],Timestamp of Minimum {TIMESTAMP},Electricity Maximum Value [W],Timestamp of Maximum {TIMESTAMP}
+,Electricity:Facility,2407.88,219.08,15-MAY-00:03,7052.84,18-MAY-06:03
+,Electricity:Building,2407.88,219.08,15-MAY-00:03,7052.84,18-MAY-06:03
+,Electricity:Zone:02FFE:OFFICEXNEXLED,54.38,7.25,15-MAY-00:03,192.81,18-MAY-06:03
+,InteriorLights:Electricity,919.81,0.00,15-MAY-00:03,2991.20,18-MAY-06:03
+,InteriorLights:Electricity:Zone:02FFE:OFFICEXNEXLED,5.13,0.00,15-MAY-00:03,58.38,18-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXNEXLED#GeneralLights:InteriorLights:Electricity,5.13,0.00,15-MAY-00:03,58.38,18-MAY-06:03
+,Electricity:Zone:02FFE:OFFICEXE,1394.14,111.73,15-MAY-00:03,4108.18,15-MAY-06:03
+,InteriorLights:Electricity:Zone:02FFE:OFFICEXE,635.23,0.00,15-MAY-00:03,2036.78,15-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXE#GeneralLights:InteriorLights:Electricity,635.23,0.00,15-MAY-00:03,2036.78,15-MAY-06:03
+,Electricity:Zone:02FFE:OFFICEXMEETXSE,143.28,11.48,15-MAY-00:03,422.19,15-MAY-06:03
+,InteriorLights:Electricity:Zone:02FFE:OFFICEXMEETXSE,65.30,0.00,15-MAY-00:03,209.35,15-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSE#GeneralLights:InteriorLights:Electricity,65.30,0.00,15-MAY-00:03,209.35,15-MAY-06:03
+,Electricity:Zone:02FFE:OFFICEXMEETXSSE,85.89,6.88,15-MAY-00:03,253.06,15-MAY-07:00
+,InteriorLights:Electricity:Zone:02FFE:OFFICEXMEETXSSE,39.15,0.00,15-MAY-00:03,125.50,15-MAY-07:00
+,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSE#GeneralLights:InteriorLights:Electricity,39.15,0.00,15-MAY-00:03,125.50,15-MAY-07:00
+,Electricity:Zone:02FFE:OFFICEXMEETXSSEXLED,32.72,2.42,15-MAY-00:03,97.11,15-MAY-06:03
+,InteriorLights:Electricity:Zone:02FFE:OFFICEXMEETXSSEXLED,16.26,0.00,15-MAY-00:03,52.19,15-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSEXLED#GeneralLights:InteriorLights:Electricity,16.26,0.00,15-MAY-00:03,52.19,15-MAY-06:03
+,Electricity:Zone:02FFE:OFFICEXNE,215.34,17.25,15-MAY-00:03,634.44,15-MAY-06:03
+,InteriorLights:Electricity:Zone:02FFE:OFFICEXNE,98.16,0.00,15-MAY-00:03,314.63,15-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXNE#GeneralLights:InteriorLights:Electricity,98.16,0.00,15-MAY-00:03,314.63,15-MAY-06:03
+,Electricity:Zone:02FFE:OFFICEXN,426.50,57.94,15-MAY-00:03,1179.79,15-MAY-06:03
+,InteriorLights:Electricity:Zone:02FFE:OFFICEXN,32.97,0.00,15-MAY-00:03,105.67,15-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXN#GeneralLights:InteriorLights:Electricity,32.97,0.00,15-MAY-00:03,105.67,15-MAY-06:03
+,Electricity:Zone:02FFE:OFFICEXMEETXSEXLED,55.64,4.13,15-MAY-00:03,165.32,15-MAY-06:03
+,InteriorLights:Electricity:Zone:02FFE:OFFICEXMEETXSEXLED,27.60,0.00,15-MAY-00:03,88.78,15-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSEXLED#GeneralLights:InteriorLights:Electricity,27.60,0.00,15-MAY-00:03,88.78,15-MAY-06:03
+,InteriorEquipment:Electricity,1488.07,219.08,15-MAY-00:03,4061.64,15-MAY-06:03
+,InteriorEquipment:Electricity:Zone:02FFE:OFFICEXNEXLED,49.25,7.25,15-MAY-00:03,134.43,15-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXNEXLED#05:InteriorEquipment:Electricity,49.25,7.25,15-MAY-00:03,134.43,15-MAY-06:03
+,InteriorEquipment:Electricity:Zone:02FFE:OFFICEXE,758.90,111.73,15-MAY-00:03,2071.40,15-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXE#05:InteriorEquipment:Electricity,758.90,111.73,15-MAY-00:03,2071.40,15-MAY-06:03
+,InteriorEquipment:Electricity:Zone:02FFE:OFFICEXMEETXSE,77.98,11.48,15-MAY-00:03,212.84,15-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSE#05:InteriorEquipment:Electricity,77.98,11.48,15-MAY-00:03,212.84,15-MAY-06:03
+,InteriorEquipment:Electricity:Zone:02FFE:OFFICEXMEETXSSE,46.74,6.88,15-MAY-00:03,127.57,15-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSE#05:InteriorEquipment:Electricity,46.74,6.88,15-MAY-00:03,127.57,15-MAY-06:03
+,InteriorEquipment:Electricity:Zone:02FFE:OFFICEXMEETXSSEXLED,16.46,2.42,15-MAY-00:03,44.93,15-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSEXLED#05:InteriorEquipment:Electricity,16.46,2.42,15-MAY-00:03,44.93,15-MAY-06:03
+,InteriorEquipment:Electricity:Zone:02FFE:OFFICEXNE,117.17,17.25,15-MAY-00:03,319.82,15-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXNE#05:InteriorEquipment:Electricity,117.17,17.25,15-MAY-00:03,319.82,15-MAY-06:03
+,InteriorEquipment:Electricity:Zone:02FFE:OFFICEXN,393.53,57.94,15-MAY-00:03,1074.13,15-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXN#05:InteriorEquipment:Electricity,393.53,57.94,15-MAY-00:03,1074.13,15-MAY-06:03
+,InteriorEquipment:Electricity:Zone:02FFE:OFFICEXMEETXSEXLED,28.04,4.13,15-MAY-00:03,76.53,15-MAY-06:03
+,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSEXLED#05:InteriorEquipment:Electricity,28.04,4.13,15-MAY-00:03,76.53,15-MAY-06:03
+,ElectricityPurchased:Facility,2407.88,219.08,15-MAY-00:03,7052.84,18-MAY-06:03
+,ElectricityPurchased:Plant,2407.88,219.08,15-MAY-00:03,7052.84,18-MAY-06:03
+,Cogeneration:ElectricityPurchased,2407.88,219.08,15-MAY-00:03,7052.84,18-MAY-06:03
+,ElectricitySurplusSold:Facility,0.00,0.00,15-MAY-00:03,0.00,15-MAY-00:03
+,ElectricitySurplusSold:Plant,0.00,0.00,15-MAY-00:03,0.00,15-MAY-00:03
+,Cogeneration:ElectricitySurplusSold,0.00,0.00,15-MAY-00:03,0.00,15-MAY-00:03
+,ElectricityNet:Facility,2407.88,219.08,15-MAY-00:03,7052.84,18-MAY-06:03
+,ElectricityNet:Plant,2407.88,219.08,15-MAY-00:03,7052.84,18-MAY-06:03
+,Cogeneration:ElectricityNet,2407.88,219.08,15-MAY-00:03,7052.84,18-MAY-06:03
+,FEELECTRICITY,2407.88,219.08,15-MAY-00:03,7052.84,18-MAY-06:03
+
+
+Annual and Peak Values - Gas
+
+,,Gas Annual Value [kWh],Gas Minimum Value [W],Timestamp of Minimum {TIMESTAMP},Gas Maximum Value [W],Timestamp of Maximum {TIMESTAMP}
+,None,,,,,
+
+
+Annual and Peak Values - Cooling
+
+,,Cooling Annual Value [kWh],Cooling Minimum Value [W],Timestamp of Minimum {TIMESTAMP},Cooling Maximum Value [W],Timestamp of Maximum {TIMESTAMP}
+,DistrictCooling:Facility,283.12,0.00,15-MAY-00:03,12864.89,25-MAY-15:00
+,DistrictCooling:HVAC,283.12,0.00,15-MAY-00:03,12864.89,25-MAY-15:00
+,Cooling:DistrictCooling,283.12,0.00,15-MAY-00:03,12864.89,25-MAY-15:00
+
+
+Annual and Peak Values - Water
+
+,,Annual Value [m3],Minimum Value [m3/s],Timestamp of Minimum {TIMESTAMP},Maximum Value [m3/s],Timestamp of Maximum {TIMESTAMP}
+,Water:Facility,1.79,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,Water:Plant,1.79,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,WaterSystems:Water,1.79,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXNEXLED:WaterSystems:Water,0.06,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,MainsWater:Facility,1.79,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,MainsWater:Plant,1.79,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,WaterSystems:MainsWater,1.79,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXNEXLED:WaterSystems:MainsWater,0.06,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXE:WaterSystems:Water,0.92,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXE:WaterSystems:MainsWater,0.92,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXMeetXSE:WaterSystems:Water,0.09,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXMeetXSE:WaterSystems:MainsWater,0.09,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXMeetXSSE:WaterSystems:Water,0.06,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXMeetXSSE:WaterSystems:MainsWater,0.06,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXMeetXSSEXLED:WaterSystems:Water,0.02,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXMeetXSSEXLED:WaterSystems:MainsWater,0.02,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXNE:WaterSystems:Water,0.14,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXNE:WaterSystems:MainsWater,0.14,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXN:WaterSystems:Water,0.47,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXN:WaterSystems:MainsWater,0.47,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXMeetXSEXLED:WaterSystems:Water,0.03,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+,DHW 02FFE:OfficeXMeetXSEXLED:WaterSystems:MainsWater,0.03,0.00,15-MAY-00:03,0.00,15-MAY-08:03
+
+
+Annual and Peak Values - Other by Weight/Mass
+
+,,Annual Value [kg],Minimum Value [kg/s],Timestamp of Minimum {TIMESTAMP},Maximum Value [kg/s],Timestamp of Maximum {TIMESTAMP}
+,Carbon Equivalent:Facility,0.00,0.000,15-MAY-00:03,0.000,15-MAY-00:03
+,CarbonEquivalentEmissions:Carbon Equivalent,0.00,0.000,15-MAY-00:03,0.000,15-MAY-00:03
+
+
+Annual and Peak Values - Other Volumetric
+
+,,Annual Value [m3],Minimum Value [m3/s],Timestamp of Minimum {TIMESTAMP},Maximum Value [m3/s],Timestamp of Maximum {TIMESTAMP}
+,None,,,,,
+
+
+Annual and Peak Values - Other Liquid/Gas
+
+,,Annual Value [L],Minimum Value [L],Timestamp of Minimum {TIMESTAMP},Maximum Value [L],Timestamp of Maximum {TIMESTAMP}
+,None,,,,,
+
+
+Annual and Peak Values - Other
+
+,,Annual Value [kWh],Minimum Value [W],Timestamp of Minimum {TIMESTAMP},Maximum Value [W],Timestamp of Maximum {TIMESTAMP}
+,EnergyTransfer:Facility,15024.95,0.00,15-MAY-18:03,153717.86,19-MAY-07:03
+,EnergyTransfer:Building,15024.95,0.00,15-MAY-18:03,153717.86,19-MAY-07:03
+,EnergyTransfer:Zone:02PLENUM:VOID,8269.42,0.00,15-MAY-18:03,85517.11,19-MAY-07:03
+,Heating:EnergyTransfer,14869.49,0.00,15-MAY-18:03,153406.71,19-MAY-07:03
+,Heating:EnergyTransfer:Zone:02PLENUM:VOID,8215.41,0.00,15-MAY-18:03,85517.11,19-MAY-07:03
+,Cooling:EnergyTransfer,155.46,0.00,15-MAY-00:03,9443.00,26-MAY-15:00
+,Cooling:EnergyTransfer:Zone:02PLENUM:VOID,54.01,0.00,15-MAY-00:03,4475.86,26-MAY-15:00
+,EnergyTransfer:Zone:02FFE:OFFICEXNEXLED,256.82,0.00,15-MAY-18:03,2745.81,19-MAY-07:03
+,Heating:EnergyTransfer:Zone:02FFE:OFFICEXNEXLED,251.60,0.00,15-MAY-14:42,2745.81,19-MAY-07:03
+,Cooling:EnergyTransfer:Zone:02FFE:OFFICEXNEXLED,5.22,0.00,15-MAY-00:03,243.27,26-MAY-16:00
+,EnergyTransfer:Zone:02FFE:OFFICEXE,3444.32,0.00,15-MAY-18:03,34057.78,19-MAY-07:03
+,Heating:EnergyTransfer:Zone:02FFE:OFFICEXE,3394.13,0.00,15-MAY-16:51,33796.97,19-MAY-07:03
+,Cooling:EnergyTransfer:Zone:02FFE:OFFICEXE,50.19,0.00,15-MAY-00:03,2486.37,26-MAY-15:03
+,EnergyTransfer:Zone:02FFE:OFFICEXMEETXSE,361.14,0.00,15-MAY-18:03,3668.13,19-MAY-07:03
+,Heating:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSE,356.09,0.00,15-MAY-16:54,3668.13,19-MAY-07:03
+,Cooling:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSE,5.05,0.00,15-MAY-00:03,254.99,26-MAY-15:03
+,EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSE,202.17,0.00,15-MAY-18:03,2222.95,19-MAY-07:03
+,Heating:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSE,199.05,0.00,15-MAY-15:12,2222.95,19-MAY-07:03
+,Cooling:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSE,3.12,0.00,15-MAY-00:03,152.00,26-MAY-15:12
+,EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSEXLED,88.24,0.00,15-MAY-18:03,936.72,19-MAY-07:03
+,Heating:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSEXLED,87.47,0.00,15-MAY-17:03,936.72,19-MAY-07:03
+,Cooling:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSEXLED,0.77,0.00,15-MAY-00:03,51.72,26-MAY-15:06
+,EnergyTransfer:Zone:02FFE:OFFICEXNE,516.20,0.00,15-MAY-18:03,5300.67,19-MAY-07:03
+,Heating:EnergyTransfer:Zone:02FFE:OFFICEXNE,508.43,0.00,15-MAY-16:45,5260.44,19-MAY-07:03
+,Cooling:EnergyTransfer:Zone:02FFE:OFFICEXNE,7.77,0.00,15-MAY-00:03,384.06,26-MAY-15:06
+,EnergyTransfer:Zone:02FFE:OFFICEXN,1813.58,0.00,15-MAY-18:03,18424.86,19-MAY-07:03
+,Heating:EnergyTransfer:Zone:02FFE:OFFICEXN,1786.60,0.00,15-MAY-17:00,18424.86,19-MAY-07:03
+,Cooling:EnergyTransfer:Zone:02FFE:OFFICEXN,26.98,0.00,15-MAY-00:03,1311.81,26-MAY-15:03
+,EnergyTransfer:Zone:02FFE:OFFICEXMEETXSEXLED,73.07,0.00,15-MAY-00:03,843.84,19-MAY-07:03
+,Heating:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSEXLED,70.72,0.00,15-MAY-00:03,833.73,19-MAY-07:03
+,Cooling:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSEXLED,2.35,0.00,15-MAY-00:03,85.82,26-MAY-15:45
+,DistrictHeating:Facility,12455.81,0.00,25-MAY-18:03,232970.22,06-JUN-17:03
+,DistrictHeating:Plant,114.59,0.00,15-MAY-00:03,489.72,15-MAY-08:03
+,WaterSystems:DistrictHeating,114.59,0.00,15-MAY-00:03,489.72,15-MAY-08:03
+,DHW 02FFE:OfficeXNEXLED:WaterSystems:DistrictHeating,3.79,0.00,15-MAY-00:03,16.21,15-MAY-08:03
+,DHW 02FFE:OfficeXE:WaterSystems:DistrictHeating,58.44,0.00,15-MAY-00:03,249.75,15-MAY-08:03
+,DHW 02FFE:OfficeXMeetXSE:WaterSystems:DistrictHeating,6.01,0.00,15-MAY-00:03,25.66,15-MAY-08:03
+,DHW 02FFE:OfficeXMeetXSSE:WaterSystems:DistrictHeating,3.60,0.00,15-MAY-00:03,15.38,15-MAY-08:03
+,DHW 02FFE:OfficeXMeetXSSEXLED:WaterSystems:DistrictHeating,1.27,0.00,15-MAY-00:03,5.42,15-MAY-08:03
+,DHW 02FFE:OfficeXNE:WaterSystems:DistrictHeating,9.02,0.00,15-MAY-00:03,38.56,15-MAY-08:03
+,DHW 02FFE:OfficeXN:WaterSystems:DistrictHeating,30.31,0.00,15-MAY-00:03,129.51,15-MAY-08:03
+,DHW 02FFE:OfficeXMeetXSEXLED:WaterSystems:DistrictHeating,2.16,0.00,15-MAY-00:03,9.23,15-MAY-08:03
+,DistrictHeating:HVAC,12341.22,0.00,25-MAY-08:48,232847.79,06-JUN-17:03
+,Heating:DistrictHeating,12341.22,0.00,25-MAY-08:48,232847.79,06-JUN-17:03
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,EndUseEnergyConsumptionElectricityMonthly
+FOR:,Meter
+Custom Monthly Report
+
+,,INTERIORLIGHTS:ELECTRICITY [kWh],EXTERIORLIGHTS:ELECTRICITY [],INTERIOREQUIPMENT:ELECTRICITY [kWh],EXTERIOREQUIPMENT:ELECTRICITY [],FANS:ELECTRICITY [],PUMPS:ELECTRICITY [],HEATING:ELECTRICITY [],COOLING:ELECTRICITY [],HEATREJECTION:ELECTRICITY [],HUMIDIFIER:ELECTRICITY [],HEATRECOVERY:ELECTRICITY [],WATERSYSTEMS:ELECTRICITY [],COGENERATION:ELECTRICITY []
+,January,-,-,-,-,-,-,-,-,-,-,-,-,-
+,February,-,-,-,-,-,-,-,-,-,-,-,-,-
+,March,-,-,-,-,-,-,-,-,-,-,-,-,-
+,April,-,-,-,-,-,-,-,-,-,-,-,-,-
+,May,459.99,0.00,738.78,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,June,459.82,0.00,749.29,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,July,-,-,-,-,-,-,-,-,-,-,-,-,-
+,August,-,-,-,-,-,-,-,-,-,-,-,-,-
+,September,-,-,-,-,-,-,-,-,-,-,-,-,-
+,October,-,-,-,-,-,-,-,-,-,-,-,-,-
+,November,-,-,-,-,-,-,-,-,-,-,-,-,-
+,December,-,-,-,-,-,-,-,-,-,-,-,-,-
+,,,,,,,,,,,,,,
+,Annual Sum or Average,919.81,,1488.07,,,,,,,,,,
+,Minimum of Months,459.82,0.00,738.78,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Maximum of Months,459.99,0.00,749.29,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+
+

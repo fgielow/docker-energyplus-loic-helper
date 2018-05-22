@@ -1,0 +1,360 @@
+Program Version,EnergyPlus, Version 8.9.0-30f4ebd739, YMD=2018.05.22 11:03
+! This file shows details about the branches, nodes, and other
+! elements of the flow connections.
+! This file is intended for use in "debugging" potential problems
+! that may also be detected by the program, but may be more easily
+! identified by "eye".
+! This file is also intended to support software which draws a
+! schematic diagram of the HVAC system.
+! ===============================================================
+! #Nodes,<Number of Unique Nodes>
+ #Nodes,45
+! <Node>,<NodeNumber>,<Node Name>,<Node Fluid Type>,<# Times Node Referenced After Definition>
+ Node,1,NODE 02PLENUM:VOID IN,Air,4
+ Node,2,NODE 02FFE:OFFICEXNEXLED IN,Air,3
+ Node,3,NODE 02FFE:OFFICEXE IN,Air,3
+ Node,4,NODE 02FFE:OFFICEXMEETXSE IN,Air,3
+ Node,5,NODE 02FFE:OFFICEXMEETXSSE IN,Air,3
+ Node,6,NODE 02FFE:OFFICEXMEETXSSEXLED IN,Air,3
+ Node,7,NODE 02FFE:OFFICEXNE IN,Air,3
+ Node,8,NODE 02FFE:OFFICEXN IN,Air,3
+ Node,9,NODE 02FFE:OFFICEXMEETXSEXLED IN,Air,3
+ Node,10,NODE 02PLENUM:VOID ZONE,Air,0
+ Node,11,NODE 02PLENUM:VOID OUT,Air,3
+ Node,12,NODE 02PLENUM:VOID RET,Air,0
+ Node,13,NODE 02FFE:OFFICEXNEXLED ZONE,Air,0
+ Node,14,NODE 02FFE:OFFICEXNEXLED OUT,Air,2
+ Node,15,NODE 02FFE:OFFICEXNEXLED RET,Air,0
+ Node,16,NODE 02FFE:OFFICEXE ZONE,Air,0
+ Node,17,NODE 02FFE:OFFICEXE OUT,Air,2
+ Node,18,NODE 02FFE:OFFICEXE RET,Air,0
+ Node,19,NODE 02FFE:OFFICEXMEETXSE ZONE,Air,0
+ Node,20,NODE 02FFE:OFFICEXMEETXSE OUT,Air,2
+ Node,21,NODE 02FFE:OFFICEXMEETXSE RET,Air,0
+ Node,22,NODE 02FFE:OFFICEXMEETXSSE ZONE,Air,0
+ Node,23,NODE 02FFE:OFFICEXMEETXSSE OUT,Air,2
+ Node,24,NODE 02FFE:OFFICEXMEETXSSE RET,Air,0
+ Node,25,NODE 02FFE:OFFICEXMEETXSSEXLED ZONE,Air,0
+ Node,26,NODE 02FFE:OFFICEXMEETXSSEXLED OUT,Air,2
+ Node,27,NODE 02FFE:OFFICEXMEETXSSEXLED RET,Air,0
+ Node,28,NODE 02FFE:OFFICEXNE ZONE,Air,0
+ Node,29,NODE 02FFE:OFFICEXNE OUT,Air,2
+ Node,30,NODE 02FFE:OFFICEXNE RET,Air,0
+ Node,31,NODE 02FFE:OFFICEXN ZONE,Air,0
+ Node,32,NODE 02FFE:OFFICEXN OUT,Air,2
+ Node,33,NODE 02FFE:OFFICEXN RET,Air,0
+ Node,34,NODE 02FFE:OFFICEXMEETXSEXLED ZONE,Air,0
+ Node,35,NODE 02FFE:OFFICEXMEETXSEXLED OUT,Air,2
+ Node,36,NODE 02FFE:OFFICEXMEETXSEXLED RET,Air,0
+ Node,37,02PLENUM:VOID IDEAL LOADS AIR OUTDOOR AIR INLET NODE,Air,1
+ Node,38,02FFE:OFFICEXNEXLED IDEAL LOADS AIR OUTDOOR AIR INLET NODE,Air,1
+ Node,39,02FFE:OFFICEXE IDEAL LOADS AIR OUTDOOR AIR INLET NODE,Air,1
+ Node,40,02FFE:OFFICEXMEETXSE IDEAL LOADS AIR OUTDOOR AIR INLET NODE,Air,1
+ Node,41,02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR OUTDOOR AIR INLET NODE,Air,1
+ Node,42,02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR OUTDOOR AIR INLET NODE,Air,1
+ Node,43,02FFE:OFFICEXNE IDEAL LOADS AIR OUTDOOR AIR INLET NODE,Air,1
+ Node,44,02FFE:OFFICEXN IDEAL LOADS AIR OUTDOOR AIR INLET NODE,Air,1
+ Node,45,02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR OUTDOOR AIR INLET NODE,Air,1
+! ===============================================================
+! Suspicious nodes have 0 references.  It is normal for some nodes, however.
+! Listing nodes with 0 references (culled from previous list):
+! <Suspicious Node>,<NodeNumber>,<Node Name>,<Node Fluid Type>,<# Times Node Referenced After Definition>
+ Suspicious Node,10,NODE 02PLENUM:VOID ZONE,Air,0
+ Suspicious Node,12,NODE 02PLENUM:VOID RET,Air,0
+ Suspicious Node,13,NODE 02FFE:OFFICEXNEXLED ZONE,Air,0
+ Suspicious Node,15,NODE 02FFE:OFFICEXNEXLED RET,Air,0
+ Suspicious Node,16,NODE 02FFE:OFFICEXE ZONE,Air,0
+ Suspicious Node,18,NODE 02FFE:OFFICEXE RET,Air,0
+ Suspicious Node,19,NODE 02FFE:OFFICEXMEETXSE ZONE,Air,0
+ Suspicious Node,21,NODE 02FFE:OFFICEXMEETXSE RET,Air,0
+ Suspicious Node,22,NODE 02FFE:OFFICEXMEETXSSE ZONE,Air,0
+ Suspicious Node,24,NODE 02FFE:OFFICEXMEETXSSE RET,Air,0
+ Suspicious Node,25,NODE 02FFE:OFFICEXMEETXSSEXLED ZONE,Air,0
+ Suspicious Node,27,NODE 02FFE:OFFICEXMEETXSSEXLED RET,Air,0
+ Suspicious Node,28,NODE 02FFE:OFFICEXNE ZONE,Air,0
+ Suspicious Node,30,NODE 02FFE:OFFICEXNE RET,Air,0
+ Suspicious Node,31,NODE 02FFE:OFFICEXN ZONE,Air,0
+ Suspicious Node,33,NODE 02FFE:OFFICEXN RET,Air,0
+ Suspicious Node,34,NODE 02FFE:OFFICEXMEETXSEXLED ZONE,Air,0
+ Suspicious Node,36,NODE 02FFE:OFFICEXMEETXSEXLED RET,Air,0
+! ===============================================================
+! <#Branch Lists>,<Number of Branch Lists>
+ #Branch Lists,0
+! <Branch List>,<Branch List Count>,<Branch List Name>,<Loop Name>,<Loop Type>,<Number of Branches>
+! <Branch>,<Branch Count>,<Branch Name>,<Loop Name>,<Loop Type>,<Branch Inlet Node Name>,<Branch Outlet Node Name>
+! ===============================================================
+! <#Supply Air Paths>,<Number of Supply Air Paths>
+ #Supply Air Paths,1
+! <Supply Air Path>,<Supply Air Path Count>,<Supply Air Path Name>,<AirLoopHVAC Name>
+! <#Components on Supply Air Path>,<Number of Components>
+! <Supply Air Path Component>,<Component Count>,<Component Type>,<Component Name>,<AirLoopHVAC Name>
+! <#Outlet Nodes on Supply Air Path Component>,<Number of Nodes>
+! <Supply Air Path Component Nodes>,<Node Count>,<Component Type>,<Component Name>,<Inlet Node Name>,<Outlet Node Name>,<AirLoopHVAC Name>
+ Supply Air Path,1,SPLITTERSUPPLYPATH,**Unknown**
+   #Components on Supply Air Path,1
+   Supply Air Path Component,1,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,**Unknown**
+     #Outlet Nodes on Supply Air Path Component,8
+     Supply Air Path Component Nodes,1,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,NODE 02PLENUM:VOID IN,NODE 02FFE:OFFICEXNEXLED OUT,**Unknown**
+     Supply Air Path Component Nodes,2,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,NODE 02PLENUM:VOID IN,NODE 02FFE:OFFICEXE OUT,**Unknown**
+     Supply Air Path Component Nodes,3,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,NODE 02PLENUM:VOID IN,NODE 02FFE:OFFICEXMEETXSE OUT,**Unknown**
+     Supply Air Path Component Nodes,4,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,NODE 02PLENUM:VOID IN,NODE 02FFE:OFFICEXMEETXSSE OUT,**Unknown**
+     Supply Air Path Component Nodes,5,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,NODE 02PLENUM:VOID IN,NODE 02FFE:OFFICEXMEETXSSEXLED OUT,**Unknown**
+     Supply Air Path Component Nodes,6,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,NODE 02PLENUM:VOID IN,NODE 02FFE:OFFICEXNE OUT,**Unknown**
+     Supply Air Path Component Nodes,7,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,NODE 02PLENUM:VOID IN,NODE 02FFE:OFFICEXN OUT,**Unknown**
+     Supply Air Path Component Nodes,8,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,NODE 02PLENUM:VOID IN,NODE 02FFE:OFFICEXMEETXSEXLED OUT,**Unknown**
+! <#Nodes on Supply Air Path>,<Number of Nodes>
+! <Supply Air Path Node>,<Node Type>,<Node Count>,<Node Name>,<AirLoopHVAC Name>
+#Nodes on Supply Air Path,9
+   Supply Air Path Node,Inlet Node,1,NODE 02PLENUM:VOID IN,**Unknown**
+   Supply Air Path Node,Outlet Node,2,NODE 02FFE:OFFICEXNEXLED OUT,**Unknown**
+   Supply Air Path Node,Outlet Node,3,NODE 02FFE:OFFICEXE OUT,**Unknown**
+   Supply Air Path Node,Outlet Node,4,NODE 02FFE:OFFICEXMEETXSE OUT,**Unknown**
+   Supply Air Path Node,Outlet Node,5,NODE 02FFE:OFFICEXMEETXSSE OUT,**Unknown**
+   Supply Air Path Node,Outlet Node,6,NODE 02FFE:OFFICEXMEETXSSEXLED OUT,**Unknown**
+   Supply Air Path Node,Outlet Node,7,NODE 02FFE:OFFICEXNE OUT,**Unknown**
+   Supply Air Path Node,Outlet Node,8,NODE 02FFE:OFFICEXN OUT,**Unknown**
+   Supply Air Path Node,Outlet Node,9,NODE 02FFE:OFFICEXMEETXSEXLED OUT,**Unknown**
+! ===============================================================
+! <#Return Air Paths>,<Number of Return Air Paths>
+ #Return Air Paths,1
+! <Return Air Path>,<Return Air Path Count>,<Return Air Path Name>,<AirLoopHVAC Name>
+! <#Components on Return Air Path>,<Number of Components>
+! <Return Air Path Component>,<Component Count>,<Component Type>,<Component Name>,<AirLoopHVAC Name>
+! <#Inlet Nodes on Return Air Path Component>,<Number of Nodes>
+! <Return Air Path Component Nodes>,<Node Count>,<Component Type>,<Component Name>,<Inlet Node Name>,<Outlet Node Name>,<AirLoopHVAC Name>
+ Return Air Path,1,MIXERPATH,**Unknown**
+   #Components on Return Air Path,1
+   Return Air Path Component,1,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,**Unknown**
+     #Inlet Nodes on Return Air Path Component,8
+     Return Air Path Component Nodes,1,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,NODE 02FFE:OFFICEXNEXLED IN,NODE 02PLENUM:VOID OUT,**Unknown**
+     Return Air Path Component Nodes,2,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,NODE 02FFE:OFFICEXE IN,NODE 02PLENUM:VOID OUT,**Unknown**
+     Return Air Path Component Nodes,3,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,NODE 02FFE:OFFICEXMEETXSE IN,NODE 02PLENUM:VOID OUT,**Unknown**
+     Return Air Path Component Nodes,4,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,NODE 02FFE:OFFICEXMEETXSSE IN,NODE 02PLENUM:VOID OUT,**Unknown**
+     Return Air Path Component Nodes,5,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,NODE 02FFE:OFFICEXMEETXSSEXLED IN,NODE 02PLENUM:VOID OUT,**Unknown**
+     Return Air Path Component Nodes,6,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,NODE 02FFE:OFFICEXNE IN,NODE 02PLENUM:VOID OUT,**Unknown**
+     Return Air Path Component Nodes,7,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,NODE 02FFE:OFFICEXN IN,NODE 02PLENUM:VOID OUT,**Unknown**
+     Return Air Path Component Nodes,8,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,NODE 02FFE:OFFICEXMEETXSEXLED IN,NODE 02PLENUM:VOID OUT,**Unknown**
+! <#Nodes on Return Air Path>,<Number of Nodes>
+! <Return Air Path Node>,<Node Type>,<Node Count>,<Node Name>,<AirLoopHVAC Name>
+   #Nodes on Return Air Path,9
+   Return Air Path Node,Outlet Node,1,NODE 02PLENUM:VOID OUT,**Unknown**
+   Return Air Path Node,Inlet Node,2,NODE 02FFE:OFFICEXNEXLED IN,**Unknown**
+   Return Air Path Node,Inlet Node,3,NODE 02FFE:OFFICEXE IN,**Unknown**
+   Return Air Path Node,Inlet Node,4,NODE 02FFE:OFFICEXMEETXSE IN,**Unknown**
+   Return Air Path Node,Inlet Node,5,NODE 02FFE:OFFICEXMEETXSSE IN,**Unknown**
+   Return Air Path Node,Inlet Node,6,NODE 02FFE:OFFICEXMEETXSSEXLED IN,**Unknown**
+   Return Air Path Node,Inlet Node,7,NODE 02FFE:OFFICEXNE IN,**Unknown**
+   Return Air Path Node,Inlet Node,8,NODE 02FFE:OFFICEXN IN,**Unknown**
+   Return Air Path Node,Inlet Node,9,NODE 02FFE:OFFICEXMEETXSEXLED IN,**Unknown**
+! ===============================================================
+! #Outdoor Air Nodes,<Number of Outdoor Air Nodes>
+ #Outdoor Air Nodes,9
+! <Outdoor Air Node>,<NodeNumber>,<Node Name>
+ Outdoor Air Node,37,02PLENUM:VOID IDEAL LOADS AIR OUTDOOR AIR INLET NODE
+ Outdoor Air Node,38,02FFE:OFFICEXNEXLED IDEAL LOADS AIR OUTDOOR AIR INLET NODE
+ Outdoor Air Node,39,02FFE:OFFICEXE IDEAL LOADS AIR OUTDOOR AIR INLET NODE
+ Outdoor Air Node,40,02FFE:OFFICEXMEETXSE IDEAL LOADS AIR OUTDOOR AIR INLET NODE
+ Outdoor Air Node,41,02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR OUTDOOR AIR INLET NODE
+ Outdoor Air Node,42,02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR OUTDOOR AIR INLET NODE
+ Outdoor Air Node,43,02FFE:OFFICEXNE IDEAL LOADS AIR OUTDOOR AIR INLET NODE
+ Outdoor Air Node,44,02FFE:OFFICEXN IDEAL LOADS AIR OUTDOOR AIR INLET NODE
+ Outdoor Air Node,45,02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR OUTDOOR AIR INLET NODE
+! ===============================================================
+! <#Component Sets>,<Number of Component Sets>
+ #Component Sets,0
+! <Component Set>,<Component Set Count>,<Parent Object Type>,<Parent Object Name>,<Component Type>,<Component Name>,<Inlet Node ID>,<Outlet Node ID>,<Description>
+! ===============================================================
+! <# Plant Loops>,<Number of Plant Loops>
+ #Plant Loops,0
+! <Plant Loop>,<Plant Loop Name>,<Loop Type>,<Inlet Node Name>,<Outlet Node Name>,<Branch List>,<Connector List>
+! <Plant Loop Connector>,<Connector Type>,<Connector Name>,<Loop Name>,<Loop Type>,<Number of Inlets/Outlets>
+! <Plant Loop Connector Branches>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Branch>,<Outlet Branch>,<Loop Name>,<Loop Type>
+! <Plant Loop Connector Nodes>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Node>,<Outlet Node>,<Loop Name>,<Loop Type>
+! <Plant Loop Supply Connection>,<Plant Loop Name>,<Supply Side Outlet Node Name>,<Demand Side Inlet Node Name>
+! <Plant Loop Return Connection>,<Plant Loop Name>,<Demand Side Outlet Node Name>,<Supply Side Inlet Node Name>
+! ===============================================================
+! <# Condenser Loops>,<Number of Condenser Loops>
+ #Condenser Loops,0
+! <Condenser Loop>,<Condenser Loop Name>,<Loop Type>,<Inlet Node Name>,<Outlet Node Name>,<Branch List>,<Connector List>
+! <Condenser Loop Connector>,<Connector Type>,<Connector Name>,<Loop Name>,<Loop Type>,<Number of Inlets/Outlets>
+! <Condenser Loop Connector Branches>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Branch>,<Outlet Branch>,<Loop Name>,<Loop Type>
+! <Condenser Loop Connector Nodes>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Node>,<Outlet Node>,<Loop Name>,<Loop Type>
+! <Condenser Loop Supply Connection>,<Condenser Loop Name>,<Supply Side Outlet Node Name>,<Demand Side Inlet Node Name>
+! <Condenser Loop Return Connection>,<Condenser Loop Name>,<Demand Side Outlet Node Name>,<Supply Side Inlet Node Name>
+! ===============================================================
+! <# Controlled Zones>,<Number of Controlled Zones>
+ #Controlled Zones,9
+! <Controlled Zone>,<Controlled Zone Name>,<Equip List Name>,<Control List Name>,<Zone Node Name>,<# Inlet Nodes>,<# Exhaust Nodes>,<# Return Nodes>
+! <Controlled Zone Inlet>,<Inlet Node Count>,<Controlled Zone Name>,<Supply Air Inlet Node Name>,<SD Sys:Cooling/Heating [DD:Cooling] Inlet Node Name>,<DD Sys:Heating Inlet Node Name>
+! <Controlled Zone Exhaust>,<Exhaust Node Count>,<Controlled Zone Name>,<Exhaust Air Node Name>
+ Controlled Zone,02PLENUM:VOID,02PLENUM:VOID EQUIPMENT,,NODE 02PLENUM:VOID ZONE,1,1,1
+   Controlled Zone Inlet,1,02PLENUM:VOID,NODE 02PLENUM:VOID IN,Undefined,N/A
+   Controlled Zone Exhaust,1,02PLENUM:VOID,NODE 02PLENUM:VOID OUT
+   Controlled Zone Return,1,02PLENUM:VOID,NODE 02PLENUM:VOID RET
+ Controlled Zone,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED EQUIPMENT,,NODE 02FFE:OFFICEXNEXLED ZONE,1,1,1
+   Controlled Zone Inlet,1,02FFE:OFFICEXNEXLED,NODE 02FFE:OFFICEXNEXLED IN,Undefined,N/A
+   Controlled Zone Exhaust,1,02FFE:OFFICEXNEXLED,NODE 02FFE:OFFICEXNEXLED OUT
+   Controlled Zone Return,1,02FFE:OFFICEXNEXLED,NODE 02FFE:OFFICEXNEXLED RET
+ Controlled Zone,02FFE:OFFICEXE,02FFE:OFFICEXE EQUIPMENT,,NODE 02FFE:OFFICEXE ZONE,1,1,1
+   Controlled Zone Inlet,1,02FFE:OFFICEXE,NODE 02FFE:OFFICEXE IN,Undefined,N/A
+   Controlled Zone Exhaust,1,02FFE:OFFICEXE,NODE 02FFE:OFFICEXE OUT
+   Controlled Zone Return,1,02FFE:OFFICEXE,NODE 02FFE:OFFICEXE RET
+ Controlled Zone,02FFE:OFFICEXMEETXSE,02FFE:OFFICEXMEETXSE EQUIPMENT,,NODE 02FFE:OFFICEXMEETXSE ZONE,1,1,1
+   Controlled Zone Inlet,1,02FFE:OFFICEXMEETXSE,NODE 02FFE:OFFICEXMEETXSE IN,Undefined,N/A
+   Controlled Zone Exhaust,1,02FFE:OFFICEXMEETXSE,NODE 02FFE:OFFICEXMEETXSE OUT
+   Controlled Zone Return,1,02FFE:OFFICEXMEETXSE,NODE 02FFE:OFFICEXMEETXSE RET
+ Controlled Zone,02FFE:OFFICEXMEETXSSE,02FFE:OFFICEXMEETXSSE EQUIPMENT,,NODE 02FFE:OFFICEXMEETXSSE ZONE,1,1,1
+   Controlled Zone Inlet,1,02FFE:OFFICEXMEETXSSE,NODE 02FFE:OFFICEXMEETXSSE IN,Undefined,N/A
+   Controlled Zone Exhaust,1,02FFE:OFFICEXMEETXSSE,NODE 02FFE:OFFICEXMEETXSSE OUT
+   Controlled Zone Return,1,02FFE:OFFICEXMEETXSSE,NODE 02FFE:OFFICEXMEETXSSE RET
+ Controlled Zone,02FFE:OFFICEXMEETXSSEXLED,02FFE:OFFICEXMEETXSSEXLED EQUIPMENT,,NODE 02FFE:OFFICEXMEETXSSEXLED ZONE,1,1,1
+   Controlled Zone Inlet,1,02FFE:OFFICEXMEETXSSEXLED,NODE 02FFE:OFFICEXMEETXSSEXLED IN,Undefined,N/A
+   Controlled Zone Exhaust,1,02FFE:OFFICEXMEETXSSEXLED,NODE 02FFE:OFFICEXMEETXSSEXLED OUT
+   Controlled Zone Return,1,02FFE:OFFICEXMEETXSSEXLED,NODE 02FFE:OFFICEXMEETXSSEXLED RET
+ Controlled Zone,02FFE:OFFICEXNE,02FFE:OFFICEXNE EQUIPMENT,,NODE 02FFE:OFFICEXNE ZONE,1,1,1
+   Controlled Zone Inlet,1,02FFE:OFFICEXNE,NODE 02FFE:OFFICEXNE IN,Undefined,N/A
+   Controlled Zone Exhaust,1,02FFE:OFFICEXNE,NODE 02FFE:OFFICEXNE OUT
+   Controlled Zone Return,1,02FFE:OFFICEXNE,NODE 02FFE:OFFICEXNE RET
+ Controlled Zone,02FFE:OFFICEXN,02FFE:OFFICEXN EQUIPMENT,,NODE 02FFE:OFFICEXN ZONE,1,1,1
+   Controlled Zone Inlet,1,02FFE:OFFICEXN,NODE 02FFE:OFFICEXN IN,Undefined,N/A
+   Controlled Zone Exhaust,1,02FFE:OFFICEXN,NODE 02FFE:OFFICEXN OUT
+   Controlled Zone Return,1,02FFE:OFFICEXN,NODE 02FFE:OFFICEXN RET
+ Controlled Zone,02FFE:OFFICEXMEETXSEXLED,02FFE:OFFICEXMEETXSEXLED EQUIPMENT,,NODE 02FFE:OFFICEXMEETXSEXLED ZONE,1,1,1
+   Controlled Zone Inlet,1,02FFE:OFFICEXMEETXSEXLED,NODE 02FFE:OFFICEXMEETXSEXLED IN,Undefined,N/A
+   Controlled Zone Exhaust,1,02FFE:OFFICEXMEETXSEXLED,NODE 02FFE:OFFICEXMEETXSEXLED OUT
+   Controlled Zone Return,1,02FFE:OFFICEXMEETXSEXLED,NODE 02FFE:OFFICEXMEETXSEXLED RET
+! ===============================================================
+! <#Zone Equipment Lists>,<Number of Zone Equipment Lists>
+ #Zone Equipment Lists,9
+! <Zone Equipment List>,<Zone Equipment List Count>,<Zone Equipment List Name>,<Zone Name>,<Number of Components>
+! <Zone Equipment Component>,<Component Count>,<Component Type>,<Component Name>,<Zone Name>,<Heating Priority>,<Cooling Priority>
+ Zone Equipment List,1,02PLENUM:VOID EQUIPMENT,02PLENUM:VOID,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,02PLENUM:VOID IDEAL LOADS AIR,02PLENUM:VOID,1,1
+ Zone Equipment List,2,02FFE:OFFICEXNEXLED EQUIPMENT,02FFE:OFFICEXNEXLED,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXNEXLED IDEAL LOADS AIR,02FFE:OFFICEXNEXLED,1,1
+ Zone Equipment List,3,02FFE:OFFICEXE EQUIPMENT,02FFE:OFFICEXE,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXE IDEAL LOADS AIR,02FFE:OFFICEXE,1,1
+ Zone Equipment List,4,02FFE:OFFICEXMEETXSE EQUIPMENT,02FFE:OFFICEXMEETXSE,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSE IDEAL LOADS AIR,02FFE:OFFICEXMEETXSE,1,1
+ Zone Equipment List,5,02FFE:OFFICEXMEETXSSE EQUIPMENT,02FFE:OFFICEXMEETXSSE,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR,02FFE:OFFICEXMEETXSSE,1,1
+ Zone Equipment List,6,02FFE:OFFICEXMEETXSSEXLED EQUIPMENT,02FFE:OFFICEXMEETXSSEXLED,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR,02FFE:OFFICEXMEETXSSEXLED,1,1
+ Zone Equipment List,7,02FFE:OFFICEXNE EQUIPMENT,02FFE:OFFICEXNE,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXNE IDEAL LOADS AIR,02FFE:OFFICEXNE,1,1
+ Zone Equipment List,8,02FFE:OFFICEXN EQUIPMENT,02FFE:OFFICEXN,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXN IDEAL LOADS AIR,02FFE:OFFICEXN,1,1
+ Zone Equipment List,9,02FFE:OFFICEXMEETXSEXLED EQUIPMENT,02FFE:OFFICEXMEETXSEXLED,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR,02FFE:OFFICEXMEETXSEXLED,1,1
+! ===============================================================
+! <#AirLoopHVACs>,<Number of AirLoopHVACs>
+ #AirLoopHVACs,0
+! <AirLoopHVAC>,<Air Loop Name>,<# Return Nodes>,<# Supply Nodes>,<# Zones Cooled>,<# Zones Heated>,<Outdoor Air Used>
+! <AirLoop Return Connections>,<Connection Count>,<AirLoopHVAC Name>,<Zn Eqp Return Node #>,<Zn Eqp Return Node Name>,<AirLoop Return Node #>,<Air Loop Return Node Name>
+! <AirLoop Supply Connections>,<Connection Count>,<AirLoopHVAC Name>,<Zn Eqp Supply Node #>,<Zn Eqp Supply Node Name>,<AirLoop Supply Node #>,<Air Loop Supply Node Name>
+! <Cooled Zone Info>,<Cooled Zone Count>,<Cooled Zone Name>,<Cooled Zone Inlet Node #>,<Cooled Zone Inlet Node Name>,<AirLoopHVAC Name>
+! <Heated Zone Info>,<Heated Zone Count>,<Heated Zone Name>,<Heated Zone Inlet Node #>,<Heated Zone Inlet Node Name>,<AirLoopHVAC Name>
+! <Outdoor Air Connections>,<OA Inlet Node #>,<OA Return Air Inlet Node Name>,<OA Outlet Node #>,<OA Mixed Air Outlet Node Name>,<AirLoopHVAC Name>
+! <AirLoopHVAC Connector>,<Connector Type>,<Connector Name>,<Loop Name>,<Loop Type>,<Number of Inlets/Outlets>
+! <AirLoopHVAC Connector Branches>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Branch>,<Outlet Branch>,<Loop Name>,<Loop Type>
+! <AirLoopHVAC Connector Nodes>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Node>,<Outlet Node>,<Loop Name>,<Loop Type>
+! ===============================================================
+! <#Parent Node Connections>,<Number of Parent Node Connections>
+ #Parent Node Connections,2
+! <Parent Node Connection>,<Node Name>,<Node ObjectType>,<Node ObjectName>,<Node ConnectionType>,<Node FluidStream>
+ Parent Node Connection,NODE 02PLENUM:VOID IN,AIRLOOPHVAC:SUPPLYPATH,SPLITTERSUPPLYPATH,Inlet,1
+ Parent Node Connection,NODE 02PLENUM:VOID OUT,AIRLOOPHVAC:RETURNPATH,MIXERPATH,Outlet,1
+! ===============================================================
+! <#Non-Parent Node Connections>,<Number of Non-Parent Node Connections>
+ #Non-Parent Node Connections,90
+! <Non-Parent Node Connection>,<Node Name>,<Node ObjectType>,<Node ObjectName>,<Node ConnectionType>,<Node FluidStream>
+ Non-Parent Node Connection,NODE 02PLENUM:VOID ZONE,ZONEHVAC:EQUIPMENTCONNECTIONS,02PLENUM:VOID,ZoneNode,1
+ Non-Parent Node Connection,NODE 02PLENUM:VOID IN,ZONEHVAC:EQUIPMENTCONNECTIONS,02PLENUM:VOID,ZoneInlet,1
+ Non-Parent Node Connection,NODE 02PLENUM:VOID OUT,ZONEHVAC:EQUIPMENTCONNECTIONS,02PLENUM:VOID,ZoneExhaust,1
+ Non-Parent Node Connection,NODE 02PLENUM:VOID RET,ZONEHVAC:EQUIPMENTCONNECTIONS,02PLENUM:VOID,ZoneReturn,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNEXLED ZONE,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXNEXLED,ZoneNode,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNEXLED IN,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXNEXLED,ZoneInlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNEXLED OUT,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXNEXLED,ZoneExhaust,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNEXLED RET,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXNEXLED,ZoneReturn,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXE ZONE,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXE,ZoneNode,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXE IN,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXE,ZoneInlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXE OUT,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXE,ZoneExhaust,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXE RET,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXE,ZoneReturn,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSE ZONE,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSE,ZoneNode,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSE IN,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSE,ZoneInlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSE OUT,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSE,ZoneExhaust,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSE RET,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSE,ZoneReturn,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSE ZONE,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSSE,ZoneNode,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSE IN,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSSE,ZoneInlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSE OUT,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSSE,ZoneExhaust,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSE RET,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSSE,ZoneReturn,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSEXLED ZONE,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSSEXLED,ZoneNode,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSEXLED IN,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSSEXLED,ZoneInlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSEXLED OUT,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSSEXLED,ZoneExhaust,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSEXLED RET,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSSEXLED,ZoneReturn,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNE ZONE,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXNE,ZoneNode,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNE IN,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXNE,ZoneInlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNE OUT,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXNE,ZoneExhaust,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNE RET,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXNE,ZoneReturn,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXN ZONE,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXN,ZoneNode,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXN IN,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXN,ZoneInlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXN OUT,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXN,ZoneExhaust,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXN RET,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXN,ZoneReturn,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSEXLED ZONE,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSEXLED,ZoneNode,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSEXLED IN,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSEXLED,ZoneInlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSEXLED OUT,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSEXLED,ZoneExhaust,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSEXLED RET,ZONEHVAC:EQUIPMENTCONNECTIONS,02FFE:OFFICEXMEETXSEXLED,ZoneReturn,1
+ Non-Parent Node Connection,NODE 02PLENUM:VOID IN,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,Inlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNEXLED OUT,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXE OUT,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSE OUT,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSE OUT,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSEXLED OUT,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNE OUT,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXN OUT,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSEXLED OUT,AIRLOOPHVAC:ZONESPLITTER,PLENUMSPLITTER,Outlet,1
+ Non-Parent Node Connection,NODE 02PLENUM:VOID IN,ZONEHVAC:IDEALLOADSAIRSYSTEM,02PLENUM:VOID IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,NODE 02PLENUM:VOID OUT,ZONEHVAC:IDEALLOADSAIRSYSTEM,02PLENUM:VOID IDEAL LOADS AIR,Inlet,1
+ Non-Parent Node Connection,02PLENUM:VOID IDEAL LOADS AIR OUTDOOR AIR INLET NODE,ZONEHVAC:IDEALLOADSAIRSYSTEM,02PLENUM:VOID IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,02PLENUM:VOID IDEAL LOADS AIR OUTDOOR AIR INLET NODE,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNEXLED IN,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXNEXLED IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNEXLED OUT,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXNEXLED IDEAL LOADS AIR,Inlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXNEXLED IDEAL LOADS AIR OUTDOOR AIR INLET NODE,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXNEXLED IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXNEXLED IDEAL LOADS AIR OUTDOOR AIR INLET NODE,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,2
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXE IN,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXE IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXE OUT,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXE IDEAL LOADS AIR,Inlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXE IDEAL LOADS AIR OUTDOOR AIR INLET NODE,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXE IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXE IDEAL LOADS AIR OUTDOOR AIR INLET NODE,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,3
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSE IN,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSE IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSE OUT,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSE IDEAL LOADS AIR,Inlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXMEETXSE IDEAL LOADS AIR OUTDOOR AIR INLET NODE,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSE IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXMEETXSE IDEAL LOADS AIR OUTDOOR AIR INLET NODE,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,4
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSE IN,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSE OUT,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR,Inlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR OUTDOOR AIR INLET NODE,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR OUTDOOR AIR INLET NODE,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,5
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSEXLED IN,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSEXLED OUT,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR,Inlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR OUTDOOR AIR INLET NODE,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR OUTDOOR AIR INLET NODE,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,6
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNE IN,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXNE IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNE OUT,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXNE IDEAL LOADS AIR,Inlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXNE IDEAL LOADS AIR OUTDOOR AIR INLET NODE,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXNE IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXNE IDEAL LOADS AIR OUTDOOR AIR INLET NODE,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,7
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXN IN,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXN IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXN OUT,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXN IDEAL LOADS AIR,Inlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXN IDEAL LOADS AIR OUTDOOR AIR INLET NODE,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXN IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXN IDEAL LOADS AIR OUTDOOR AIR INLET NODE,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,8
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSEXLED IN,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSEXLED OUT,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR,Inlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR OUTDOOR AIR INLET NODE,ZONEHVAC:IDEALLOADSAIRSYSTEM,02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR,Outlet,1
+ Non-Parent Node Connection,02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR OUTDOOR AIR INLET NODE,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,9
+ Non-Parent Node Connection,NODE 02PLENUM:VOID OUT,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,Outlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNEXLED IN,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,Inlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXE IN,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,Inlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSE IN,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,Inlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSE IN,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,Inlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSSEXLED IN,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,Inlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXNE IN,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,Inlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXN IN,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,Inlet,1
+ Non-Parent Node Connection,NODE 02FFE:OFFICEXMEETXSEXLED IN,AIRLOOPHVAC:ZONEMIXER,PLENUMMIXER,Inlet,1

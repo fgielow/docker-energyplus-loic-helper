@@ -1,0 +1,69 @@
+Program Version,EnergyPlus, Version 8.9.0-30f4ebd739, YMD=2018.05.22 11:03,
+   ** Warning ** Timestep: Requested number (6) cannot be used when Conduction Finite Difference algorithm is selected.
+   **   ~~~   ** ...Timestep is set to 20.
+   ** Warning ** Sizing:Parameters: note Timesteps in Averaging Window entered value=[2] is less than 1 hour (i.e., 20 timesteps).
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** GetSurfaceData: Construction INOVO SUSPENDED FLOOR of interzone surface 02PLENUM:VOID_FLOOR_0_1_0 does not have the same materials in the reverse order as the construction INOVO SUSPENDED FLOOR_REV of adjacent surface 02FFE:OFFICEXNEXLED_CEILING_1_0_10004
+   **   ~~~   ** ...but Nominal U values are similar, diff=[0.0000] ... simulation proceeds.
+   **   ~~~   ** ...if the two zones are expected to have significantly different temperatures, the proper "reverse" construction should be created.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** GetSurfaceData: Construction PROJECT PARTITION of interzone surface 02FFE:OFFICEXNEXLED_PARTITION_5_0_0 does not have the same materials in the reverse order as the construction PROJECT PARTITION_REV of adjacent surface 02FFE:OFFICEXN_PARTITION_6_0_10022
+   **   ~~~   ** ...but Nominal U values are similar, diff=[0.0000] ... simulation proceeds.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** GetSurfaceData: Entered Zone Floor Areas differ from calculated Zone Floor Area(s).
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Warning ** CalcSurfaceCentroid: 6 Surfaces have the Z coordinate < 0.
+   **   ~~~   ** ...in any calculations, Wind Speed will be 0.0 for these surfaces.
+   **   ~~~   ** ...in any calculations, Outside temperatures will be the outside temperature + 9.750E-003 for these surfaces.
+   **   ~~~   ** ...that is, these surfaces will have conditions as though at ground level.
+   ************* Note that the following warning(s) may/will occur if you have not enclosed your zone completely.
+   ** Warning ** Entered Zone Volumes differ from calculated zone volume(s).
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Warning ** CalculateZoneVolume: 7 zones are not fully enclosed. For more details use:  Output:Diagnostics,DisplayExtrawarnings; 
+   ** Warning ** CheckUsedConstructions: There are 5 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** DeterminePolygonOverlap: Too many figures [>15000]  detected in an overlap calculation. Use Output:Diagnostics,DisplayExtraWarnings; for more details.
+   ** Warning ** DeterminePolygonOverlap: Too many vertices [>15] detected in an overlap calculation. Use Output:Diagnostics,DisplayExtraWarnings; for more details.
+   ** Warning ** Detailed daylighting will not be done for zone=02FFE:OFFICEXNE
+   **   ~~~   ** because it has no associated exterior windows.
+   ** Severe  ** InitHeatBalFiniteDiff: Construction ="IRTSURFACE" uses Material:InfraredTransparent. Cannot be used currently with finite difference calculations.
+   **   ~~~   ** ...if this construction were used in a surface, the simulation would be terminated.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIORLIGHTS:ELECTRICITY:ZONE:02PLENUM:VOID" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIOREQUIPMENT:ELECTRICITY:ZONE:02PLENUM:VOID" - not found.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.
+   ** Warning ** In zone 02PLENUM:VOID there is unbalanced air flow. Load due to induced outdoor air is neglected.
+   **   ~~~   **  Environment=INOVO TEST (01-05:20-06), at Simulation time=05/15 00:57 - 01:00
+   **   ~~~   **   Flows [kg/s]: Inlets: 0.107781  Unbalanced exhausts: 4.203213  Returns: 0.000000
+   **   ~~~   **   Infiltration: 4.067710  Ventilation: 0.000000  Mixing(incoming): 0.000000
+   **   ~~~   **   Imbalance (excess outflow): 2.772181E-002  This error will only be reported once per zone.
+   ************* Simulation Error Summary *************
+   ************* There are 1 unused objects in input.
+   ************* Use Output:Diagnostics,DisplayUnusedObjects; to see them.
+   ************* There are 22 unused schedules in input.
+   ************* There are 51 unused week schedules in input.
+   ************* There are 11 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   ************* Material:InfraredTransparent usage
+   ************* ..Using Material:InfraredTransparent materials in constructions are correctly used in interzone surface
+   ************* ..constructions. Warnings are given if they are used in other kinds of surfaces.
+   ************* ..They CANNOT currently be used with ConductionFiniteDifference algorithms.
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 11 Warning; 1 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 16 Warning; 1 Severe Errors; Elapsed Time=00hr 03min  9.61sec

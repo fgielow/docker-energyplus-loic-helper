@@ -1,0 +1,1148 @@
+
+ Meters for 7,02FFE:OFFICEXNEXLED GENERAL LIGHTING:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXNEXLED [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:02FFE:OFFICEXNEXLED [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXNEXLED#GeneralLights:InteriorLights:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 80,02FFE:OFFICEXE GENERAL LIGHTING:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:02FFE:OFFICEXE [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXE#GeneralLights:InteriorLights:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 117,02FFE:OFFICEXMEETXSE GENERAL LIGHTING:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXMEETXSE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:02FFE:OFFICEXMEETXSE [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSE#GeneralLights:InteriorLights:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 154,02FFE:OFFICEXMEETXSSE GENERAL LIGHTING:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXMEETXSSE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:02FFE:OFFICEXMEETXSSE [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSE#GeneralLights:InteriorLights:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 191,02FFE:OFFICEXMEETXSSEXLED GENERAL LIGHTING:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXMEETXSSEXLED [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:02FFE:OFFICEXMEETXSSEXLED [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSEXLED#GeneralLights:InteriorLights:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 228,02FFE:OFFICEXNE GENERAL LIGHTING:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXNE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:02FFE:OFFICEXNE [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXNE#GeneralLights:InteriorLights:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 265,02FFE:OFFICEXN GENERAL LIGHTING:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:02FFE:OFFICEXN [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXN#GeneralLights:InteriorLights:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 302,02FFE:OFFICEXMEETXSEXLED GENERAL LIGHTING:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXMEETXSEXLED [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:02FFE:OFFICEXMEETXSEXLED [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSEXLED#GeneralLights:InteriorLights:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 339,02FFE:OFFICEXNEXLED EQUIPMENT 1:Other Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXNEXLED [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXNEXLED [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXNEXLED#05:InteriorEquipment:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 376,02FFE:OFFICEXE EQUIPMENT 1:Other Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXE [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXE#05:InteriorEquipment:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 401,02FFE:OFFICEXMEETXSE EQUIPMENT 1:Other Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXMEETXSE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXMEETXSE [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSE#05:InteriorEquipment:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 426,02FFE:OFFICEXMEETXSSE EQUIPMENT 1:Other Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXMEETXSSE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXMEETXSSE [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSE#05:InteriorEquipment:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 451,02FFE:OFFICEXMEETXSSEXLED EQUIPMENT 1:Other Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXMEETXSSEXLED [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXMEETXSSEXLED [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSEXLED#05:InteriorEquipment:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 476,02FFE:OFFICEXNE EQUIPMENT 1:Other Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXNE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXNE [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXNE#05:InteriorEquipment:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 501,02FFE:OFFICEXN EQUIPMENT 1:Other Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXN [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXN#05:InteriorEquipment:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 526,02FFE:OFFICEXMEETXSEXLED EQUIPMENT 1:Other Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:02FFE:OFFICEXMEETXSEXLED [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXMEETXSEXLED [J]
+  OnMeter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSEXLED#05:InteriorEquipment:Electricity [J]
+  OnCustomMeter=FEELECTRICITY [J]
+
+ Meters for 569,02PLENUM:VOID:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02PLENUM:VOID [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:02PLENUM:VOID [J]
+
+ Meters for 630,02PLENUM:VOID:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02PLENUM:VOID [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:02PLENUM:VOID [J]
+
+ Meters for 659,02FFE:OFFICEXNEXLED:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXNEXLED [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXNEXLED [J]
+
+ Meters for 684,02FFE:OFFICEXNEXLED:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXNEXLED [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXNEXLED [J]
+
+ Meters for 701,02FFE:OFFICEXE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXE [J]
+
+ Meters for 726,02FFE:OFFICEXE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXE [J]
+
+ Meters for 743,02FFE:OFFICEXMEETXSE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXMEETXSE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSE [J]
+
+ Meters for 768,02FFE:OFFICEXMEETXSE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXMEETXSE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSE [J]
+
+ Meters for 785,02FFE:OFFICEXMEETXSSE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSE [J]
+
+ Meters for 810,02FFE:OFFICEXMEETXSSE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSE [J]
+
+ Meters for 827,02FFE:OFFICEXMEETXSSEXLED:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSEXLED [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSEXLED [J]
+
+ Meters for 852,02FFE:OFFICEXMEETXSSEXLED:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSEXLED [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSEXLED [J]
+
+ Meters for 869,02FFE:OFFICEXNE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXNE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXNE [J]
+
+ Meters for 894,02FFE:OFFICEXNE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXNE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXNE [J]
+
+ Meters for 911,02FFE:OFFICEXN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXN [J]
+
+ Meters for 936,02FFE:OFFICEXN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXN [J]
+
+ Meters for 953,02FFE:OFFICEXMEETXSEXLED:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXMEETXSEXLED [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSEXLED [J]
+
+ Meters for 978,02FFE:OFFICEXMEETXSEXLED:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:02FFE:OFFICEXMEETXSEXLED [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSEXLED [J]
+
+ Meters for 995,DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=DHW 02FFE:OfficeXNEXLED:WaterSystems:Water [m3]
+
+ Meters for 1044,DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=DHW 02FFE:OfficeXNEXLED:WaterSystems:MainsWater [m3]
+
+ Meters for 1093,DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:Plant [J]
+  OnMeter=WaterSystems:DistrictHeating [J]
+  OnMeter=DHW 02FFE:OfficeXNEXLED:WaterSystems:DistrictHeating [J]
+
+ Meters for 1142,DHW 02FFE:OFFICEXE:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=DHW 02FFE:OfficeXE:WaterSystems:Water [m3]
+
+ Meters for 1155,DHW 02FFE:OFFICEXE:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=DHW 02FFE:OfficeXE:WaterSystems:MainsWater [m3]
+
+ Meters for 1168,DHW 02FFE:OFFICEXE:Water Use Equipment Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:Plant [J]
+  OnMeter=WaterSystems:DistrictHeating [J]
+  OnMeter=DHW 02FFE:OfficeXE:WaterSystems:DistrictHeating [J]
+
+ Meters for 1181,DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=DHW 02FFE:OfficeXMeetXSE:WaterSystems:Water [m3]
+
+ Meters for 1194,DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=DHW 02FFE:OfficeXMeetXSE:WaterSystems:MainsWater [m3]
+
+ Meters for 1207,DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:Plant [J]
+  OnMeter=WaterSystems:DistrictHeating [J]
+  OnMeter=DHW 02FFE:OfficeXMeetXSE:WaterSystems:DistrictHeating [J]
+
+ Meters for 1220,DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=DHW 02FFE:OfficeXMeetXSSE:WaterSystems:Water [m3]
+
+ Meters for 1233,DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=DHW 02FFE:OfficeXMeetXSSE:WaterSystems:MainsWater [m3]
+
+ Meters for 1246,DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:Plant [J]
+  OnMeter=WaterSystems:DistrictHeating [J]
+  OnMeter=DHW 02FFE:OfficeXMeetXSSE:WaterSystems:DistrictHeating [J]
+
+ Meters for 1259,DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=DHW 02FFE:OfficeXMeetXSSEXLED:WaterSystems:Water [m3]
+
+ Meters for 1272,DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=DHW 02FFE:OfficeXMeetXSSEXLED:WaterSystems:MainsWater [m3]
+
+ Meters for 1285,DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:Plant [J]
+  OnMeter=WaterSystems:DistrictHeating [J]
+  OnMeter=DHW 02FFE:OfficeXMeetXSSEXLED:WaterSystems:DistrictHeating [J]
+
+ Meters for 1298,DHW 02FFE:OFFICEXNE:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=DHW 02FFE:OfficeXNE:WaterSystems:Water [m3]
+
+ Meters for 1311,DHW 02FFE:OFFICEXNE:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=DHW 02FFE:OfficeXNE:WaterSystems:MainsWater [m3]
+
+ Meters for 1324,DHW 02FFE:OFFICEXNE:Water Use Equipment Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:Plant [J]
+  OnMeter=WaterSystems:DistrictHeating [J]
+  OnMeter=DHW 02FFE:OfficeXNE:WaterSystems:DistrictHeating [J]
+
+ Meters for 1337,DHW 02FFE:OFFICEXN:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=DHW 02FFE:OfficeXN:WaterSystems:Water [m3]
+
+ Meters for 1350,DHW 02FFE:OFFICEXN:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=DHW 02FFE:OfficeXN:WaterSystems:MainsWater [m3]
+
+ Meters for 1363,DHW 02FFE:OFFICEXN:Water Use Equipment Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:Plant [J]
+  OnMeter=WaterSystems:DistrictHeating [J]
+  OnMeter=DHW 02FFE:OfficeXN:WaterSystems:DistrictHeating [J]
+
+ Meters for 1376,DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=DHW 02FFE:OfficeXMeetXSEXLED:WaterSystems:Water [m3]
+
+ Meters for 1389,DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=DHW 02FFE:OfficeXMeetXSEXLED:WaterSystems:MainsWater [m3]
+
+ Meters for 1402,DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:Plant [J]
+  OnMeter=WaterSystems:DistrictHeating [J]
+  OnMeter=DHW 02FFE:OfficeXMeetXSEXLED:WaterSystems:DistrictHeating [J]
+
+ Meters for 1415,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 1452,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 1489,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 1526,02PLENUM:VOID IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1551,02PLENUM:VOID IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1590,02FFE:OFFICEXNEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1591,02FFE:OFFICEXNEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1594,02FFE:OFFICEXE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1595,02FFE:OFFICEXE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1598,02FFE:OFFICEXMEETXSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1599,02FFE:OFFICEXMEETXSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1602,02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1603,02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1606,02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1607,02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1610,02FFE:OFFICEXNE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1611,02FFE:OFFICEXNE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1614,02FFE:OFFICEXN IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1615,02FFE:OFFICEXN IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1618,02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1619,02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1622,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1647,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1648,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  02FFE:OFFICEXNEXLED GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSSE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSSEXLED GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXNE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXN GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSEXLED GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXNEXLED EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSSE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSSEXLED EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXNE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXN EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSEXLED EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  02FFE:OFFICEXNEXLED GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSSE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSSEXLED GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXNE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXN GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSEXLED GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXNEXLED EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSSE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSSEXLED EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXNE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXN EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSEXLED EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=Electricity:Zone:02FFE:OFFICEXNEXLED [J], ResourceType=Electricity, Group=Zone, contents are:
+  02FFE:OFFICEXNEXLED GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXNEXLED EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  02FFE:OFFICEXNEXLED GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSSE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSSEXLED GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXNE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXN GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSEXLED GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:02FFE:OFFICEXNEXLED [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  02FFE:OFFICEXNEXLED GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXNEXLED#GeneralLights:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  02FFE:OFFICEXNEXLED GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=Electricity:Zone:02FFE:OFFICEXE [J], ResourceType=Electricity, Group=Zone, contents are:
+  02FFE:OFFICEXE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXE EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:02FFE:OFFICEXE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  02FFE:OFFICEXE GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXE#GeneralLights:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  02FFE:OFFICEXE GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=Electricity:Zone:02FFE:OFFICEXMEETXSE [J], ResourceType=Electricity, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSE EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:02FFE:OFFICEXMEETXSE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSE GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSE#GeneralLights:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  02FFE:OFFICEXMEETXSE GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=Electricity:Zone:02FFE:OFFICEXMEETXSSE [J], ResourceType=Electricity, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSSE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSSE EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:02FFE:OFFICEXMEETXSSE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSSE GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSE#GeneralLights:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  02FFE:OFFICEXMEETXSSE GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=Electricity:Zone:02FFE:OFFICEXMEETXSSEXLED [J], ResourceType=Electricity, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSSEXLED GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSSEXLED EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:02FFE:OFFICEXMEETXSSEXLED [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSSEXLED GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSEXLED#GeneralLights:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  02FFE:OFFICEXMEETXSSEXLED GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=Electricity:Zone:02FFE:OFFICEXNE [J], ResourceType=Electricity, Group=Zone, contents are:
+  02FFE:OFFICEXNE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXNE EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:02FFE:OFFICEXNE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  02FFE:OFFICEXNE GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXNE#GeneralLights:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  02FFE:OFFICEXNE GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=Electricity:Zone:02FFE:OFFICEXN [J], ResourceType=Electricity, Group=Zone, contents are:
+  02FFE:OFFICEXN GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXN EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:02FFE:OFFICEXN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  02FFE:OFFICEXN GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXN#GeneralLights:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  02FFE:OFFICEXN GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=Electricity:Zone:02FFE:OFFICEXMEETXSEXLED [J], ResourceType=Electricity, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSEXLED GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSEXLED EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:02FFE:OFFICEXMEETXSEXLED [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSEXLED GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSEXLED#GeneralLights:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  02FFE:OFFICEXMEETXSEXLED GENERAL LIGHTING:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  02FFE:OFFICEXNEXLED EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSSE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSSEXLED EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXNE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXN EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSEXLED EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXNEXLED [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  02FFE:OFFICEXNEXLED EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXNEXLED#05:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  02FFE:OFFICEXNEXLED EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  02FFE:OFFICEXE EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXE#05:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  02FFE:OFFICEXE EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXMEETXSE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSE EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSE#05:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  02FFE:OFFICEXMEETXSE EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXMEETXSSE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSSE EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSE#05:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  02FFE:OFFICEXMEETXSSE EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXMEETXSSEXLED [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSSEXLED EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSEXLED#05:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  02FFE:OFFICEXMEETXSSEXLED EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXNE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  02FFE:OFFICEXNE EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXNE#05:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  02FFE:OFFICEXNE EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  02FFE:OFFICEXN EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXN#05:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  02FFE:OFFICEXN EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:02FFE:OFFICEXMEETXSEXLED [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSEXLED EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSEXLED#05:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  02FFE:OFFICEXMEETXSEXLED EQUIPMENT 1:Other Equipment Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  02PLENUM:VOID:Zone Air System Sensible Heating Energy
+  02PLENUM:VOID:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXNEXLED:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXNEXLED:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXE:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXMEETXSE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSE:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXMEETXSSE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSSE:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXMEETXSSEXLED:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSSEXLED:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXNE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXNE:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXN:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXN:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXMEETXSEXLED:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSEXLED:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  02PLENUM:VOID:Zone Air System Sensible Heating Energy
+  02PLENUM:VOID:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXNEXLED:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXNEXLED:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXE:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXMEETXSE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSE:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXMEETXSSE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSSE:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXMEETXSSEXLED:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSSEXLED:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXNE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXNE:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXN:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXN:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXMEETXSEXLED:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSEXLED:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:02PLENUM:VOID [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  02PLENUM:VOID:Zone Air System Sensible Heating Energy
+  02PLENUM:VOID:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  02PLENUM:VOID:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXNEXLED:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSSE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSSEXLED:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXNE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXN:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSEXLED:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:02PLENUM:VOID [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  02PLENUM:VOID:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  02PLENUM:VOID:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXNEXLED:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXE:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXMEETXSE:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXMEETXSSE:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXMEETXSSEXLED:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXNE:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXN:Zone Air System Sensible Cooling Energy
+  02FFE:OFFICEXMEETXSEXLED:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:02PLENUM:VOID [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  02PLENUM:VOID:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:02FFE:OFFICEXNEXLED [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  02FFE:OFFICEXNEXLED:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXNEXLED:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXNEXLED [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  02FFE:OFFICEXNEXLED:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXNEXLED [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  02FFE:OFFICEXNEXLED:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:02FFE:OFFICEXE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  02FFE:OFFICEXE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  02FFE:OFFICEXE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  02FFE:OFFICEXE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:02FFE:OFFICEXMEETXSE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSSE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSSE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSSE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSSE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSEXLED [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSSEXLED:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSSEXLED:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSEXLED [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSSEXLED:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSSEXLED [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSSEXLED:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:02FFE:OFFICEXNE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  02FFE:OFFICEXNE:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXNE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXNE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  02FFE:OFFICEXNE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXNE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  02FFE:OFFICEXNE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:02FFE:OFFICEXN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  02FFE:OFFICEXN:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  02FFE:OFFICEXN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  02FFE:OFFICEXN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:02FFE:OFFICEXMEETXSEXLED [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSEXLED:Zone Air System Sensible Heating Energy
+  02FFE:OFFICEXMEETXSEXLED:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSEXLED [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSEXLED:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:02FFE:OFFICEXMEETXSEXLED [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  02FFE:OFFICEXMEETXSEXLED:Zone Air System Sensible Cooling Energy
+
+ For Meter=Water:Facility [m3], ResourceType=Water, contents are:
+  DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXE:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXNE:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXN:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Total Volume
+
+ For Meter=Water:Plant [m3], ResourceType=Water, Group=Plant, contents are:
+  DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXE:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXNE:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXN:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Total Volume
+
+ For Meter=WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXE:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXNE:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXN:Water Use Equipment Total Volume
+  DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Total Volume
+
+ For Meter=DHW 02FFE:OfficeXNEXLED:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Total Volume
+
+ For Meter=MainsWater:Facility [m3], ResourceType=MainsWater, contents are:
+  DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXE:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXNE:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXN:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Mains Water Volume
+
+ For Meter=MainsWater:Plant [m3], ResourceType=MainsWater, Group=Plant, contents are:
+  DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXE:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXNE:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXN:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Mains Water Volume
+
+ For Meter=WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXE:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXNE:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXN:Water Use Equipment Mains Water Volume
+  DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Mains Water Volume
+
+ For Meter=DHW 02FFE:OfficeXNEXLED:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Mains Water Volume
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXE:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXNE:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXN:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Heating Energy
+  02PLENUM:VOID IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXNEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXMEETXSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXNE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXN IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeating:Plant [J], ResourceType=DistrictHeating, Group=Plant, contents are:
+  DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXE:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXNE:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXN:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Heating Energy
+
+ For Meter=WaterSystems:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXE:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXNE:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXN:Water Use Equipment Heating Energy
+  DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Heating Energy
+
+ For Meter=DHW 02FFE:OfficeXNEXLED:WaterSystems:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXNEXLED:Water Use Equipment Heating Energy
+
+ For Meter=DHW 02FFE:OfficeXE:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXE:Water Use Equipment Total Volume
+
+ For Meter=DHW 02FFE:OfficeXE:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXE:Water Use Equipment Mains Water Volume
+
+ For Meter=DHW 02FFE:OfficeXE:WaterSystems:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXE:Water Use Equipment Heating Energy
+
+ For Meter=DHW 02FFE:OfficeXMeetXSE:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Total Volume
+
+ For Meter=DHW 02FFE:OfficeXMeetXSE:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Mains Water Volume
+
+ For Meter=DHW 02FFE:OfficeXMeetXSE:WaterSystems:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXMEETXSE:Water Use Equipment Heating Energy
+
+ For Meter=DHW 02FFE:OfficeXMeetXSSE:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Total Volume
+
+ For Meter=DHW 02FFE:OfficeXMeetXSSE:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Mains Water Volume
+
+ For Meter=DHW 02FFE:OfficeXMeetXSSE:WaterSystems:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXMEETXSSE:Water Use Equipment Heating Energy
+
+ For Meter=DHW 02FFE:OfficeXMeetXSSEXLED:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Total Volume
+
+ For Meter=DHW 02FFE:OfficeXMeetXSSEXLED:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Mains Water Volume
+
+ For Meter=DHW 02FFE:OfficeXMeetXSSEXLED:WaterSystems:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXMEETXSSEXLED:Water Use Equipment Heating Energy
+
+ For Meter=DHW 02FFE:OfficeXNE:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXNE:Water Use Equipment Total Volume
+
+ For Meter=DHW 02FFE:OfficeXNE:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXNE:Water Use Equipment Mains Water Volume
+
+ For Meter=DHW 02FFE:OfficeXNE:WaterSystems:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXNE:Water Use Equipment Heating Energy
+
+ For Meter=DHW 02FFE:OfficeXN:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXN:Water Use Equipment Total Volume
+
+ For Meter=DHW 02FFE:OfficeXN:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXN:Water Use Equipment Mains Water Volume
+
+ For Meter=DHW 02FFE:OfficeXN:WaterSystems:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXN:Water Use Equipment Heating Energy
+
+ For Meter=DHW 02FFE:OfficeXMeetXSEXLED:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Total Volume
+
+ For Meter=DHW 02FFE:OfficeXMeetXSEXLED:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Mains Water Volume
+
+ For Meter=DHW 02FFE:OfficeXMeetXSEXLED:WaterSystems:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=WaterSystems, contents are:
+  DHW 02FFE:OFFICEXMEETXSEXLED:Water Use Equipment Heating Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
+  02PLENUM:VOID IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXNEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXMEETXSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXNE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXN IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  02PLENUM:VOID IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXNEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXMEETXSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXNE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXN IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+  02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  02PLENUM:VOID IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXNEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXMEETXSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXNE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXN IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  02PLENUM:VOID IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXNEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXMEETXSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXNE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXN IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  02PLENUM:VOID IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXNEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXMEETXSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXNE IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXN IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+  02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=FEELECTRICITY [J], ResourceType=Electricity, contents are:
+  02FFE:OFFICEXNEXLED GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSSE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSSEXLED GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXNE GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXN GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXMEETXSEXLED GENERAL LIGHTING:Lights Electric Energy
+  02FFE:OFFICEXNEXLED EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSSE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSSEXLED EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXNE EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXN EQUIPMENT 1:Other Equipment Electric Energy
+  02FFE:OFFICEXMEETXSEXLED EQUIPMENT 1:Other Equipment Electric Energy

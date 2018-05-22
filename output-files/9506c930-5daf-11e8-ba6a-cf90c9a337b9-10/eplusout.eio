@@ -1,0 +1,591 @@
+Program Version,EnergyPlus, Version 8.9.0-30f4ebd739, YMD=2018.05.22 11:03
+! <Version>, Version ID
+ Version, 8.9
+! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
+ Timesteps per Hour, 20,  3
+! <System Convergence Limits>, Minimum System TimeStep {minutes}, Max HVAC Iterations, Minimum Plant Iterations, Maximum Plant Iterations
+ System Convergence Limits, 1, 25, 2, 8
+! <Simulation Control>, Do Zone Sizing, Do System Sizing, Do Plant Sizing, Do Design Days, Do Weather Simulation, Do HVAC Sizing Simulation
+ Simulation Control, Yes, Yes, No, No, Yes, No
+! <Output Reporting Tolerances>, Tolerance for Time Heating Setpoint Not Met, Tolerance for Zone Cooling Setpoint Not Met Time
+ Output Reporting Tolerances, 1.110, 1.110, 
+! <Site:GroundTemperature:BuildingSurface>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:BuildingSurface,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00
+! <Site:GroundTemperature:FCfactorMethod>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:FCfactorMethod,   5.14,   7.21,   9.59,  11.37,  13.85,  14.37,  13.53,  11.51,   8.87,   6.43,   4.69,   4.23
+! <Site:GroundTemperature:Shallow>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Shallow,  14.00,  14.00,  14.00,  14.00,  14.00,  14.00,  14.00,  14.00,  14.00,  14.00,  14.00,  14.00
+! <Site:GroundTemperature:Deep>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Deep,  14.00,  14.00,  14.00,  14.00,  14.00,  14.00,  14.00,  14.00,  14.00,  14.00,  14.00,  14.00
+! <Site:GroundReflectance>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:SnowModifier>, Normal, Daylighting {dimensionless}
+ Site:GroundReflectance:SnowModifier,   2.000,   2.000
+! <Site:GroundReflectance:Snow>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow,  0.40,  0.40,  0.40,  0.40,  0.40,  0.40,  0.40,  0.40,  0.40,  0.40,  0.40,  0.40
+! <Site:GroundReflectance:Snow:Daylighting>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow:Daylighting,  0.40,  0.40,  0.40,  0.40,  0.40,  0.40,  0.40,  0.40,  0.40,  0.40,  0.40,  0.40
+! <Environment:Weather Station>,Wind Sensor Height Above Ground {m},Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Sensor Height Above Ground {m},Wind Speed Modifier Coefficient-Internal,Temperature Modifier Coefficient-Internal
+Environment:Weather Station,10.000,0.140,270.000,1.500,1.586,9.750E-003
+! <Site:Location>, Location Name, Latitude {N+/S- Deg}, Longitude {E+/W- Deg},  Time Zone Number {GMT+/-}, Elevation {m},  Standard Pressure at Elevation {Pa}, Standard RhoAir at Elevation
+Site:Location,GLASGOW-AP - GBR Custom-031400 WMO#=031400,55.87,-4.43,0.00,8.00,101229,1.2032
+! <Building Information>, Building Name,North Axis {deg},Terrain,  Loads Convergence Tolerance Value,Temperature Convergence Tolerance Value,  Solar Distribution,Maximum Number of Warmup Days,Minimum Number of Warmup Days
+ Building Information,Building,92.000,City,4.00000E-002,0.40000,FullExteriorWithReflectionsFromExteriorSurfaces,25,6
+! <Inside Convection Algorithm>, Algorithm {Simple | TARP | CeilingDiffuser | AdaptiveConvectionAlgorithm}
+Inside Convection Algorithm,CeilingDiffuser
+! <Outside Convection Algorithm>, Algorithm {SimpleCombined | TARP | MoWitt | DOE-2 | AdaptiveConvectionAlgorithm}
+Outside Convection Algorithm,DOE-2
+! <Sky Radiance Distribution>, Value {Anisotropic}
+Sky Radiance Distribution,Anisotropic
+! <Zone Air Solution Algorithm>, Value {ThirdOrderBackwardDifference | AnalyticalSolution | EulerMethod}
+ Zone Air Solution Algorithm, ThirdOrderBackwardDifference
+! <Zone Air Carbon Dioxide Balance Simulation>, Simulation {Yes/No}, Carbon Dioxide Concentration
+ Zone Air Carbon Dioxide Balance Simulation, No,N/A
+! <Zone Air Generic Contaminant Balance Simulation>, Simulation {Yes/No}, Generic Contaminant Concentration
+ Zone Air Generic Contaminant Balance Simulation, No,N/A
+! <Zone Air Mass Flow Balance Simulation>, Enforce Mass Balance, Adjust Zone Mixing, Adjust Zone Infiltration {AddInfiltration | AdjustInfiltration | None}, Infiltration Zones {MixingSourceZonesOnly | AllZones}
+ Zone Air Mass Flow Balance Simulation, No,N/A,N/A,N/A
+! <HVACSystemRootFindingAlgorithm>, Value {RegulaFalsi | Bisection | BisectionThenRegulaFalsi | RegulaFalsiThenBisection}
+ HVACSystemRootFindingAlgorithm, RegulaFalsi
+! <Environment:Site Atmospheric Variation>,Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Gradient Coefficient {K/m}
+Environment:Site Atmospheric Variation,0.330,460.000,6.500000E-003
+! <Surface Geometry>,Starting Corner,Vertex Input Direction,Coordinate System,Daylight Reference Point Coordinate System,Rectangular (Simple) Surface Coordinate System
+ Surface Geometry,LowerLeftCorner,Counterclockwise,RelativeCoordinateSystem,RelativeCoordinateSystem,RelativeToZoneOrigin
+! <ShadingProperty Reflectance>,Shading Surface Name,Shading Type,Diffuse Solar Reflectance, Diffuse Visible Reflectance,Surface Glazing Fraction,Surface Glazing Contruction
+ShadingProperty Reflectance,INOVO - 03-05_A - SURFACE 1 (51),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 03-05_A - SURFACE 1 (51),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 03-05_A - SURFACE 2 (52),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 03-05_A - SURFACE 2 (52),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 03-05_A - SURFACE 3 (53),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 03-05_A - SURFACE 3 (53),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 03-05_A - SURFACE 4 (54),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 03-05_A - SURFACE 4 (54),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 03-05_A - SURFACE 5 (55),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 03-05_A - SURFACE 5 (55),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 03-05_A - SURFACE 6 (56),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 03-05_A - SURFACE 6 (56),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 03-05_A - SURFACE 7 (57),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 03-05_A - SURFACE 7 (57),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 03-05_A - SURFACE 8 (58),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 03-05_A - SURFACE 8 (58),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 03-05_A - SURFACE 9 (59),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 03-05_A - SURFACE 9 (59),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 03-05_A - SURFACE 10 (60),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 03-05_A - SURFACE 10 (60),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 03-05_A - SURFACE 11 (61),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 03-05_A - SURFACE 11 (61),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 03-05_A - SURFACE 12 (62),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 03-05_A - SURFACE 12 (62),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 03-05_A - SURFACE 13 (63),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 03-05_A - SURFACE 13 (63),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 00BASEMENT - SURFACE 1 (64),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 00BASEMENT - SURFACE 1 (64),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 00BASEMENT - SURFACE 2 (65),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 00BASEMENT - SURFACE 2 (65),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 00BASEMENT - SURFACE 3 (66),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 00BASEMENT - SURFACE 3 (66),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 00BASEMENT - SURFACE 4 (67),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 00BASEMENT - SURFACE 4 (67),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 00BASEMENT - SURFACE 5 (68),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 00BASEMENT - SURFACE 5 (68),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 00BASEMENT - SURFACE 6 (69),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 00BASEMENT - SURFACE 6 (69),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 00BASEMENT - SURFACE 7 (70),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 00BASEMENT - SURFACE 7 (70),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 00BASEMENT - SURFACE 8 (71),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 00BASEMENT - SURFACE 8 (71),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 00BASEMENT - SURFACE 9 (72),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 00BASEMENT - SURFACE 9 (72),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 00BASEMENT - SURFACE 10 (73),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 00BASEMENT - SURFACE 10 (73),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 00BASEMENT - SURFACE 11 (74),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 00BASEMENT - SURFACE 11 (74),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 00BASEMENT - SURFACE 12 (75),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 00BASEMENT - SURFACE 12 (75),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 00BASEMENT - SURFACE 13 (76),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 00BASEMENT - SURFACE 13 (76),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 01GROUND - SURFACE 1 (77),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 01GROUND - SURFACE 1 (77),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 01GROUND - SURFACE 2 (78),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 01GROUND - SURFACE 2 (78),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 01GROUND - SURFACE 3 (79),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 01GROUND - SURFACE 3 (79),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 01GROUND - SURFACE 4 (80),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 01GROUND - SURFACE 4 (80),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 01GROUND - SURFACE 5 (81),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 01GROUND - SURFACE 5 (81),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 01GROUND - SURFACE 6 (82),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 01GROUND - SURFACE 6 (82),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 01GROUND - SURFACE 7 (83),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 01GROUND - SURFACE 7 (83),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 01GROUND - SURFACE 8 (84),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 01GROUND - SURFACE 8 (84),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 01GROUND - SURFACE 9 (85),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 01GROUND - SURFACE 9 (85),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 01GROUND - SURFACE 10 (86),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 01GROUND - SURFACE 10 (86),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 01GROUND - SURFACE 11 (87),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 01GROUND - SURFACE 11 (87),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 01GROUND - SURFACE 12 (88),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 01GROUND - SURFACE 12 (88),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 01GROUND - SURFACE 13 (89),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 01GROUND - SURFACE 13 (89),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 1 (90),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 1 (90),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 2 (91),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 2 (91),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 3 (92),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 3 (92),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 4 (93),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 4 (93),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 5 (94),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 5 (94),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 6 (95),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 6 (95),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 7 (96),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 7 (96),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 8 (97),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 8 (97),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 9 (98),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 9 (98),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 10 (99),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 10 (99),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 11 (100),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 11 (100),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 12 (101),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 12 (101),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 13 (102),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 13 (102),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 14 (103),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 14 (103),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 15 (104),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 15 (104),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 16 (105),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 16 (105),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,INOVO - 02FFW - SURFACE 17 (106),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-INOVO - 02FFW - SURFACE 17 (106),Detached Shading:Fixed,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_W - GRAVEN - SURFACE 1 (1),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_W - GRAVEN - SURFACE 1 (1),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_W - GRAVEN - SURFACE 2 (2),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_W - GRAVEN - SURFACE 2 (2),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_W - GRAVEN - SURFACE 3 (3),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_W - GRAVEN - SURFACE 3 (3),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_W - GRAVEN - SURFACE 4 (4),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_W - GRAVEN - SURFACE 4 (4),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_W - GRAVEN - SURFACE 5 (5),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_W - GRAVEN - SURFACE 5 (5),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_W - GRAVEN - SURFACE 6 (6),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_W - GRAVEN - SURFACE 6 (6),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_E - TIC - SURFACE 1 (7),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_E - TIC - SURFACE 1 (7),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_E - TIC - SURFACE 2 (8),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_E - TIC - SURFACE 2 (8),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_E - TIC - SURFACE 3 (9),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_E - TIC - SURFACE 3 (9),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_E - TIC - SURFACE 4 (10),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_E - TIC - SURFACE 4 (10),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_E - TIC - SURFACE 5 (11),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_E - TIC - SURFACE 5 (11),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_E - TIC - SURFACE 6 (12),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_E - TIC - SURFACE 6 (12),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_E - TIC - SURFACE 7 (13),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_E - TIC - SURFACE 7 (13),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_E - TIC - SURFACE 8 (14),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_E - TIC - SURFACE 8 (14),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_E - TIC - SURFACE 9 (15),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_E - TIC - SURFACE 9 (15),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_E - TIC - SURFACE 10 (16),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_E - TIC - SURFACE 10 (16),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - ROAD - SURFACE 1 (17),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - ROAD - SURFACE 1 (17),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - ROAD - SURFACE 2 (18),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - ROAD - SURFACE 2 (18),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - ROAD - SURFACE 3 (19),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - ROAD - SURFACE 3 (19),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - ROAD - SURFACE 4 (20),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - ROAD - SURFACE 4 (20),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - ROAD - SURFACE 5 (21),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - ROAD - SURFACE 5 (21),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - ROAD - SURFACE 6 (22),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - ROAD - SURFACE 6 (22),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - CAR_PARK - SURFACE 1 (23),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - CAR_PARK - SURFACE 1 (23),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - CAR_PARK - SURFACE 2 (24),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - CAR_PARK - SURFACE 2 (24),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - CAR_PARK - SURFACE 3 (25),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - CAR_PARK - SURFACE 3 (25),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - CAR_PARK - SURFACE 4 (26),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - CAR_PARK - SURFACE 4 (26),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - CAR_PARK - SURFACE 5 (27),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - CAR_PARK - SURFACE 5 (27),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - CAR_PARK - SURFACE 6 (28),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - CAR_PARK - SURFACE 6 (28),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - GRAHAM_HILLS - SURFACE 1 (29),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - GRAHAM_HILLS - SURFACE 1 (29),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - GRAHAM_HILLS - SURFACE 2 (30),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - GRAHAM_HILLS - SURFACE 2 (30),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - GRAHAM_HILLS - SURFACE 3 (31),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - GRAHAM_HILLS - SURFACE 3 (31),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - GRAHAM_HILLS - SURFACE 4 (32),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - GRAHAM_HILLS - SURFACE 4 (32),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - GRAHAM_HILLS - SURFACE 5 (33),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - GRAHAM_HILLS - SURFACE 5 (33),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - GRAHAM_HILLS - SURFACE 6 (34),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - GRAHAM_HILLS - SURFACE 6 (34),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - GRAHAM_HILLS - SURFACE 7 (35),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - GRAHAM_HILLS - SURFACE 7 (35),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - LIVINGSTONE_TOWER - SURFACE 1 (36),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - LIVINGSTONE_TOWER - SURFACE 1 (36),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - LIVINGSTONE_TOWER - SURFACE 2 (37),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - LIVINGSTONE_TOWER - SURFACE 2 (37),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - LIVINGSTONE_TOWER - SURFACE 3 (38),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - LIVINGSTONE_TOWER - SURFACE 3 (38),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - LIVINGSTONE_TOWER - SURFACE 4 (39),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - LIVINGSTONE_TOWER - SURFACE 4 (39),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - LIVINGSTONE_TOWER - SURFACE 5 (40),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - LIVINGSTONE_TOWER - SURFACE 5 (40),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - LIVINGSTONE_TOWER - SURFACE 6 (41),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - LIVINGSTONE_TOWER - SURFACE 6 (41),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - LIVINGSTONE_TOWER - SURFACE 7 (42),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - LIVINGSTONE_TOWER - SURFACE 7 (42),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - LIVINGSTONE_TOWER - SURFACE 8 (43),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - LIVINGSTONE_TOWER - SURFACE 8 (43),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - LIVINGSTONE_TOWER - SURFACE 9 (44),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - LIVINGSTONE_TOWER - SURFACE 9 (44),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - COLLINS - SURFACE 1 (45),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - COLLINS - SURFACE 1 (45),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - COLLINS - SURFACE 2 (46),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - COLLINS - SURFACE 2 (46),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - COLLINS - SURFACE 3 (47),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - COLLINS - SURFACE 3 (47),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - COLLINS - SURFACE 4 (48),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - COLLINS - SURFACE 4 (48),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - COLLINS - SURFACE 5 (49),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - COLLINS - SURFACE 5 (49),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,SHADING_N - COLLINS - SURFACE 6 (50),Detached Shading:Building,0.20,0.20,0.00, N/A
+ShadingProperty Reflectance,Mir-SHADING_N - COLLINS - SURFACE 6 (50),Detached Shading:Building,0.20,0.20,0.00, N/A
+! <Surface Heat Transfer Algorithm>, Value {CTF - ConductionTransferFunction | EMPD - MoisturePenetrationDepthConductionTransferFunction | CondFD - ConductionFiniteDifference | HAMT - CombinedHeatAndMoistureFiniteElement} - Description,Inside Surface Max Temperature Limit{C}, Surface Convection Coefficient Lower Limit {W/m2-K}, Surface Convection Coefficient Upper Limit {W/m2-K}
+Surface Heat Transfer Algorithm, CondFD - ConductionFiniteDifference,2000,1.00E-008,1000.0
+! <Shading Summary>, Number of Fixed Detached Shades, Number of Building Detached Shades, Number of Attached Shades
+ Shading Summary,112,100,0
+! <Zone Summary>, Number of Zones, Number of Zone Surfaces, Number of SubSurfaces
+ Zone Summary,9,130,32
+! <Zone Information>,Zone Name,North Axis {deg},Origin X-Coordinate {m},Origin Y-Coordinate {m},Origin Z-Coordinate {m},Centroid X-Coordinate {m},Centroid Y-Coordinate {m},Centroid Z-Coordinate {m},Type,Zone Multiplier,Zone List Multiplier,Minimum X {m},Maximum X {m},Minimum Y {m},Maximum Y {m},Minimum Z {m},Maximum Z {m},Ceiling Height {m},Volume {m3},Zone Inside Convection Algorithm {Simple-Detailed-CeilingDiffuser-TrombeWall},Zone Outside Convection Algorithm {Simple-Detailed-Tarp-MoWitt-DOE-2-BLAST}, Floor Area {m2},Exterior Gross Wall Area {m2},Exterior Net Wall Area {m2},Exterior Window Area {m2}, Number of Surfaces, Number of SubSurfaces, Number of Shading SubSurfaces,  Part of Total Building Area
+ Zone Information, 02PLENUM:VOID,0.0,0.00,0.00,0.00,-3.80,3.54,12.37,1,1,1,-17.14,14.37,-19.82,28.72,12.02,12.72,0.54,249.38,CeilingDiffuser,DOE-2,1061.20,98.03,98.03,0.00,28,0,0,No
+ Zone Information, 02FFE:OFFICEXNEXLED,0.0,0.00,0.00,0.00,8.44,17.01,10.32,1,1,1,5.71,9.43,12.10,20.85,8.64,12.02,2.43,36.32,CeilingDiffuser,DOE-2,11.42,40.38,18.39,20.20,11,5,0,Yes
+ Zone Information, 02FFE:OFFICEXE,0.0,0.00,0.00,0.00,5.73,1.94,10.33,1,1,1,0.94,13.13,-9.02,12.38,8.64,12.02,3.19,559.65,CeilingDiffuser,DOE-2,175.99,65.12,36.90,25.53,13,13,0,Yes
+ Zone Information, 02FFE:OFFICEXMEETXSE,0.0,0.00,0.00,0.00,10.68,-8.42,10.33,1,1,1,7.56,14.03,-11.17,-6.44,8.64,12.02,3.01,57.51,CeilingDiffuser,DOE-2,18.08,10.98,4.56,5.77,5,4,0,Yes
+ Zone Information, 02FFE:OFFICEXMEETXSSE,0.0,0.00,0.00,0.00,6.23,-9.75,10.33,1,1,1,4.15,8.45,-12.12,-8.04,8.64,12.02,2.98,34.47,CeilingDiffuser,DOE-2,10.84,0.00,0.00,0.00,5,3,0,Yes
+ Zone Information, 02FFE:OFFICEXMEETXSSEXLED,0.0,0.00,0.00,0.00,7.05,-12.48,10.33,1,1,1,5.15,8.79,-13.31,-11.17,8.64,12.02,2.35,12.14,CeilingDiffuser,DOE-2,3.82,11.48,6.08,4.77,5,2,0,Yes
+ Zone Information, 02FFE:OFFICEXNE,0.0,0.00,0.00,0.00,5.52,15.04,10.32,1,1,1,2.59,8.14,12.15,19.67,8.64,12.02,3.20,86.41,CeilingDiffuser,DOE-2,27.17,0.00,0.00,0.00,7,0,0,Yes
+ Zone Information, 02FFE:OFFICEXN,0.0,0.00,0.00,0.00,-0.62,19.14,10.32,1,1,1,-6.23,6.14,12.33,25.27,8.64,12.02,3.13,290.21,CeilingDiffuser,DOE-2,91.26,43.62,6.85,35.10,19,3,0,Yes
+ Zone Information, 02FFE:OFFICEXMEETXSEXLED,0.0,0.00,0.00,0.00,11.49,-11.24,10.33,1,1,1,8.45,14.37,-12.37,-9.56,8.64,12.02,2.38,20.68,CeilingDiffuser,DOE-2,6.50,23.85,17.42,5.77,5,2,0,Yes
+! <Zone Internal Gains Nominal>,Zone Name, Floor Area {m2},# Occupants,Area per Occupant {m2/person},Occupant per Area {person/m2},Interior Lighting {W/m2},Electric Load {W/m2},Gas Load {W/m2},Other Load {W/m2},Hot Water Eq {W/m2},Steam Equipment {W/m2},Sum Loads per Area {W/m2},Outdoor Controlled Baseboard Heat
+ Zone Internal Gains Nominal, 02PLENUM:VOID,1061.20,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
+ Zone Internal Gains Nominal, 02FFE:OFFICEXNEXLED,11.42,2.1,5.429,0.184,14.737,0.000,0.000,11.770,0.000,0.000,26.507,No
+ Zone Internal Gains Nominal, 02FFE:OFFICEXE,175.99,32.4,5.429,0.184,10.526,0.000,0.000,11.770,0.000,0.000,22.296,No
+ Zone Internal Gains Nominal, 02FFE:OFFICEXMEETXSE,18.08,3.3,5.429,0.184,10.526,0.000,0.000,11.770,0.000,0.000,22.296,No
+ Zone Internal Gains Nominal, 02FFE:OFFICEXMEETXSSE,10.84,2.0,5.429,0.184,10.526,0.000,0.000,11.770,0.000,0.000,22.296,No
+ Zone Internal Gains Nominal, 02FFE:OFFICEXMEETXSSEXLED,3.82,0.7,5.429,0.184,14.737,0.000,0.000,11.770,0.000,0.000,26.507,No
+ Zone Internal Gains Nominal, 02FFE:OFFICEXNE,27.17,5.0,5.429,0.184,10.526,0.000,0.000,11.770,0.000,0.000,22.296,No
+ Zone Internal Gains Nominal, 02FFE:OFFICEXN,91.26,16.8,5.429,0.184,10.526,0.000,0.000,11.770,0.000,0.000,22.296,No
+ Zone Internal Gains Nominal, 02FFE:OFFICEXMEETXSEXLED,6.50,1.2,5.429,0.184,14.737,0.000,0.000,11.770,0.000,0.000,26.507,No
+! <People Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People
+ People Internal Gains Nominal, PEOPLE 02FFE:OFFICEXNEXLED,OFFICE_OPENOFF_OCC,02FFE:OFFICEXNEXLED,11.42,2.1,2.1,0.184,5.429,0.300,0.700,AutoCalculate,ACTIVITY SCHEDULE 190420,No,3.8200E-008,0,2
+ People Internal Gains Nominal, PEOPLE 02FFE:OFFICEXE,OFFICE_OPENOFF_OCC,02FFE:OFFICEXE,175.99,32.4,32.4,0.184,5.429,0.300,0.700,AutoCalculate,ACTIVITY SCHEDULE 190430,No,3.8200E-008,0,32
+ People Internal Gains Nominal, PEOPLE 02FFE:OFFICEXMEETXSE,OFFICE_OPENOFF_OCC,02FFE:OFFICEXMEETXSE,18.08,3.3,3.3,0.184,5.429,0.300,0.700,AutoCalculate,ACTIVITY SCHEDULE 190442,No,3.8200E-008,0,3
+ People Internal Gains Nominal, PEOPLE 02FFE:OFFICEXMEETXSSE,OFFICE_OPENOFF_OCC,02FFE:OFFICEXMEETXSSE,10.84,2.0,2.0,0.184,5.429,0.300,0.700,AutoCalculate,ACTIVITY SCHEDULE 190449,No,3.8200E-008,0,2
+ People Internal Gains Nominal, PEOPLE 02FFE:OFFICEXMEETXSSEXLED,OFFICE_OPENOFF_OCC,02FFE:OFFICEXMEETXSSEXLED,3.82,0.7,0.7,0.184,5.429,0.300,0.700,AutoCalculate,ACTIVITY SCHEDULE 190456,No,3.8200E-008,0,1
+ People Internal Gains Nominal, PEOPLE 02FFE:OFFICEXNE,OFFICE_OPENOFF_OCC,02FFE:OFFICEXNE,27.17,5.0,5.0,0.184,5.429,0.300,0.700,AutoCalculate,ACTIVITY SCHEDULE 190463,No,3.8200E-008,0,5
+ People Internal Gains Nominal, PEOPLE 02FFE:OFFICEXN,OFFICE_OPENOFF_OCC,02FFE:OFFICEXN,91.26,16.8,16.8,0.184,5.429,0.300,0.700,AutoCalculate,ACTIVITY SCHEDULE 190472,No,3.8200E-008,0,17
+ People Internal Gains Nominal, PEOPLE 02FFE:OFFICEXMEETXSEXLED,OFFICE_OPENOFF_OCC,02FFE:OFFICEXMEETXSEXLED,6.50,1.2,1.2,0.184,5.429,0.300,0.700,AutoCalculate,ACTIVITY SCHEDULE 190486,No,3.8200E-008,0,1
+! <Lights Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Lighting Level {W},Lights/Floor Area {W/m2},Lights per person {W/person},Fraction Return Air,Fraction Radiant,Fraction Short Wave,Fraction Convected,Fraction Replaceable,End-Use Category,Nominal Minimum Lighting Level {W},Nominal Maximum Lighting Level {W}
+ Lights Internal Gains Nominal, 02FFE:OFFICEXNEXLED GENERAL LIGHTING,OFFICE_OPENOFF_LIGHT,02FFE:OFFICEXNEXLED,11.42,2.1,168.312,14.737,80.000,0.000,0.000,0.200,0.800,1.000,ELECTRIC EQUIPMENT#02FFE:OfficeXNEXLED#GeneralLights,0.000,168.312
+ Lights Internal Gains Nominal, 02FFE:OFFICEXE GENERAL LIGHTING,OFFICE_OPENOFF_LIGHT,02FFE:OFFICEXE,175.99,32.4,1852.520,10.526,57.143,0.000,0.370,0.180,0.450,1.000,ELECTRIC EQUIPMENT#02FFE:OfficeXE#GeneralLights,0.000,1852.520
+ Lights Internal Gains Nominal, 02FFE:OFFICEXMEETXSE GENERAL LIGHTING,OFFICE_OPENOFF_LIGHT,02FFE:OFFICEXMEETXSE,18.08,3.3,190.354,10.526,57.143,0.000,0.370,0.180,0.450,1.000,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSE#GeneralLights,0.000,190.354
+ Lights Internal Gains Nominal, 02FFE:OFFICEXMEETXSSE GENERAL LIGHTING,OFFICE_OPENOFF_LIGHT,02FFE:OFFICEXMEETXSSE,10.84,2.0,114.087,10.526,57.143,0.000,0.370,0.180,0.450,1.000,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSE#GeneralLights,0.000,114.087
+ Lights Internal Gains Nominal, 02FFE:OFFICEXMEETXSSEXLED GENERAL LIGHTING,OFFICE_OPENOFF_LIGHT,02FFE:OFFICEXMEETXSSEXLED,3.82,0.7,56.251,14.737,80.000,0.000,0.000,0.200,0.800,1.000,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSSEXLED#GeneralLights,0.000,56.251
+ Lights Internal Gains Nominal, 02FFE:OFFICEXNE GENERAL LIGHTING,OFFICE_OPENOFF_LIGHT,02FFE:OFFICEXNE,27.17,5.0,286.024,10.526,57.143,0.000,0.370,0.180,0.450,1.000,ELECTRIC EQUIPMENT#02FFE:OfficeXNE#GeneralLights,0.000,286.024
+ Lights Internal Gains Nominal, 02FFE:OFFICEXN GENERAL LIGHTING,OFFICE_OPENOFF_LIGHT,02FFE:OFFICEXN,91.26,16.8,960.627,10.526,57.143,0.000,0.370,0.180,0.450,1.000,ELECTRIC EQUIPMENT#02FFE:OfficeXN#GeneralLights,0.000,960.627
+ Lights Internal Gains Nominal, 02FFE:OFFICEXMEETXSEXLED GENERAL LIGHTING,OFFICE_OPENOFF_LIGHT,02FFE:OFFICEXMEETXSEXLED,6.50,1.2,95.826,14.737,80.000,0.000,0.000,0.200,0.800,1.000,ELECTRIC EQUIPMENT#02FFE:OfficeXMeetXSEXLED#GeneralLights,0.000,95.826
+! <OtherEquipment Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}
+ OtherEquipment Internal Gains Nominal, 02FFE:OFFICEXNEXLED EQUIPMENT 1,OFFICE_OPENOFF_EQUIP,02FFE:OFFICEXNEXLED,11.42,2.1,134.428,11.770,63.894,0.000,0.200,0.000,0.800,0.000,134.428
+ OtherEquipment Internal Gains Nominal, 02FFE:OFFICEXE EQUIPMENT 1,OFFICE_OPENOFF_EQUIP,02FFE:OFFICEXE,175.99,32.4,2071.395,11.770,63.894,0.000,0.200,0.000,0.800,0.000,2071.395
+ OtherEquipment Internal Gains Nominal, 02FFE:OFFICEXMEETXSE EQUIPMENT 1,OFFICE_OPENOFF_EQUIP,02FFE:OFFICEXMEETXSE,18.08,3.3,212.844,11.770,63.894,0.000,0.200,0.000,0.800,0.000,212.844
+ OtherEquipment Internal Gains Nominal, 02FFE:OFFICEXMEETXSSE EQUIPMENT 1,OFFICE_OPENOFF_EQUIP,02FFE:OFFICEXMEETXSSE,10.84,2.0,127.567,11.770,63.894,0.000,0.200,0.000,0.800,0.000,127.567
+ OtherEquipment Internal Gains Nominal, 02FFE:OFFICEXMEETXSSEXLED EQUIPMENT 1,OFFICE_OPENOFF_EQUIP,02FFE:OFFICEXMEETXSSEXLED,3.82,0.7,44.926,11.770,63.894,0.000,0.200,0.000,0.800,0.000,44.926
+ OtherEquipment Internal Gains Nominal, 02FFE:OFFICEXNE EQUIPMENT 1,OFFICE_OPENOFF_EQUIP,02FFE:OFFICEXNE,27.17,5.0,319.818,11.770,63.894,0.000,0.200,0.000,0.800,0.000,319.818
+ OtherEquipment Internal Gains Nominal, 02FFE:OFFICEXN EQUIPMENT 1,OFFICE_OPENOFF_EQUIP,02FFE:OFFICEXN,91.26,16.8,1074.125,11.770,63.894,0.000,0.200,0.000,0.800,0.000,1074.125
+ OtherEquipment Internal Gains Nominal, 02FFE:OFFICEXMEETXSEXLED EQUIPMENT 1,OFFICE_OPENOFF_EQUIP,02FFE:OFFICEXMEETXSEXLED,6.50,1.2,76.534,11.770,63.894,0.000,0.200,0.000,0.800,0.000,76.534
+! <Shadowing/Sun Position Calculations Annual Simulations>, Calculation Method, Value {days}, Allowable Number Figures in Shadow Overlap {}, Polygon Clipping Algorithm, Sky Diffuse Modeling Algorithm, External Shading Calculation Method, Output External Shading Calculation Results, Disable Self-Shading Within Shading Zone Groups, Disable Self-Shading From Shading Zone Groups to Other Zones
+Shadowing/Sun Position Calculations Annual Simulations,AverageOverDaysInFrequency,20,15000,SutherlandHodgman,SimpleSkyDiffuseModeling,InternalCalculation,No,No,No
+! <Zone/Window Adjacency Daylighting Counts>, Zone Name, Number of Exterior Windows, Number of Exterior Windows in Adjacent Zones
+Zone/Window Adjacency Daylighting Counts, 02FFE:OFFICEXNEXLED,5,0
+Zone/Window Adjacency Daylighting Counts, 02FFE:OFFICEXE,8,2
+Zone/Window Adjacency Daylighting Counts, 02FFE:OFFICEXMEETXSE,2,8
+Zone/Window Adjacency Daylighting Counts, 02FFE:OFFICEXMEETXSSE,0,8
+Zone/Window Adjacency Daylighting Counts, 02FFE:OFFICEXMEETXSSEXLED,2,0
+Zone/Window Adjacency Daylighting Counts, 02FFE:OFFICEXNE,0,0
+Zone/Window Adjacency Daylighting Counts, 02FFE:OFFICEXN,3,0
+Zone/Window Adjacency Daylighting Counts, 02FFE:OFFICEXMEETXSEXLED,2,0
+! <Zone/Window Adjacency Daylighting Matrix>, Zone Name, Number of Adjacent Zones with Windows,Adjacent Zone Names - 1st 100 (max)
+Zone/Window Adjacency Daylighting Matrix, 02FFE:OFFICEXNEXLED,0
+Zone/Window Adjacency Daylighting Matrix, 02FFE:OFFICEXE,1,02FFE:OFFICEXMEETXSE
+Zone/Window Adjacency Daylighting Matrix, 02FFE:OFFICEXMEETXSE,1,02FFE:OFFICEXE
+Zone/Window Adjacency Daylighting Matrix, 02FFE:OFFICEXMEETXSSE,1,02FFE:OFFICEXE
+Zone/Window Adjacency Daylighting Matrix, 02FFE:OFFICEXMEETXSSEXLED,0
+Zone/Window Adjacency Daylighting Matrix, 02FFE:OFFICEXNE,0
+Zone/Window Adjacency Daylighting Matrix, 02FFE:OFFICEXN,0
+Zone/Window Adjacency Daylighting Matrix, 02FFE:OFFICEXMEETXSEXLED,0
+! <Surface View Factor Check Values>,Zone Name,Original Check Value,Calculated Fixed Check Value,Final Check Value,Number of Iterations,Fixed RowSum Convergence,Used RowSum Convergence
+Surface View Factor Check Values,02PLENUM:VOID,1.832882,7.380313E-004,7.380313E-004,17,28.000000,7.380313E-004
+Surface View Factor Check Values,02FFE:OFFICEXNEXLED,3.552714E-015,8.779975E-004,8.779975E-004,16,8.779975E-004,8.779975E-004
+Surface View Factor Check Values,02FFE:OFFICEXE,3.552714E-015,9.132677E-004,9.132677E-004,16,9.132677E-004,9.132677E-004
+Surface View Factor Check Values,02FFE:OFFICEXMEETXSE,1.776357E-015,8.139573E-004,8.139573E-004,9,8.139573E-004,8.139573E-004
+Surface View Factor Check Values,02FFE:OFFICEXMEETXSSE,3.552714E-015,6.678693E-004,6.678693E-004,8,6.678693E-004,6.678693E-004
+Surface View Factor Check Values,02FFE:OFFICEXMEETXSSEXLED,0.000000,9.326554E-004,9.326554E-004,19,9.326554E-004,9.326554E-004
+Surface View Factor Check Values,02FFE:OFFICEXNE,0.000000,6.494437E-004,6.494437E-004,11,6.494437E-004,6.494437E-004
+Surface View Factor Check Values,02FFE:OFFICEXN,0.657753,9.982219E-004,9.982219E-004,14,22.000000,9.982219E-004
+Surface View Factor Check Values,02FFE:OFFICEXMEETXSEXLED,1.776357E-015,9.433707E-004,9.433707E-004,31,9.433707E-004,9.433707E-004
+! <ConductionFiniteDifference HeatBalanceSettings>,Scheme Type,Space Discretization Constant,Relaxation Factor,Inside Face Surface Temperature Convergence Criteria
+ ConductionFiniteDifference HeatBalanceSettings,FullyImplicitFirstOrder,3.00,1.00,2.0000E-003
+! <ZoneInfiltration Airflow Stats Nominal>,Name,Schedule Name,Zone Name, Zone Floor Area {m2}, # Zone Occupants,Design Volume Flow Rate {m3/s},Volume Flow Rate/Floor Area {m3/s/m2},Volume Flow Rate/Exterior Surface Area {m3/s/m2},ACH - Air Changes per Hour,Equation A - Constant Term Coefficient {},Equation B - Temperature Term Coefficient {1/C},Equation C - Velocity Term Coefficient {s/m}, Equation D - Velocity Squared Term Coefficient {s2/m2}
+ ZoneInfiltration Airflow Stats Nominal, 02PLENUM:VOID INFILTRATION,ON 24/7,02PLENUM:VOID,1061.20,0.0,7.822,7.371E-003,7.979E-002,112.918,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, 02FFE:OFFICEXNEXLED INFILTRATION,ON 24/7,02FFE:OFFICEXNEXLED,11.42,2.1,8.419E-002,7.371E-003,1.650E-003,8.345,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, 02FFE:OFFICEXE INFILTRATION,ON 24/7,02FFE:OFFICEXE,175.99,32.4,1.297,7.371E-003,1.992E-002,8.345,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, 02FFE:OFFICEXMEETXSE INFILTRATION,ON 24/7,02FFE:OFFICEXMEETXSE,18.08,3.3,0.133,7.371E-003,1.213E-002,8.345,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, 02FFE:OFFICEXMEETXSSE INFILTRATION,ON 24/7,02FFE:OFFICEXMEETXSSE,10.84,2.0,7.989E-002,7.371E-003,N/A,8.345,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, 02FFE:OFFICEXMEETXSSEXLED INFILTRATION,ON 24/7,02FFE:OFFICEXMEETXSSEXLED,3.82,0.7,2.814E-002,7.371E-003,2.450E-003,8.345,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, 02FFE:OFFICEXNE INFILTRATION,ON 24/7,02FFE:OFFICEXNE,27.17,5.0,0.200,7.371E-003,9.838E-002,8.345,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, 02FFE:OFFICEXN INFILTRATION,ON 24/7,02FFE:OFFICEXN,91.26,16.8,0.673,7.371E-003,9.983E-003,8.345,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, 02FFE:OFFICEXMEETXSEXLED INFILTRATION,ON 24/7,02FFE:OFFICEXMEETXSEXLED,6.50,1.2,2.742E-002,4.216E-003,1.150E-003,4.773,1.000,0.000,0.000,0.000
+! <AirFlow Model>, Simple
+ AirFlow Model, Simple
+! <RoomAir Model>, Zone Name, Mixing/Mundt/UCSDDV/UCSDCV/UCSDUFI/UCSDUFE/User Defined
+RoomAir Model,02PLENUM:VOID,Mixing/Well-Stirred
+RoomAir Model,02FFE:OFFICEXNEXLED,Mixing/Well-Stirred
+RoomAir Model,02FFE:OFFICEXE,Mixing/Well-Stirred
+RoomAir Model,02FFE:OFFICEXMEETXSE,Mixing/Well-Stirred
+RoomAir Model,02FFE:OFFICEXMEETXSSE,Mixing/Well-Stirred
+RoomAir Model,02FFE:OFFICEXMEETXSSEXLED,Mixing/Well-Stirred
+RoomAir Model,02FFE:OFFICEXNE,Mixing/Well-Stirred
+RoomAir Model,02FFE:OFFICEXN,Mixing/Well-Stirred
+RoomAir Model,02FFE:OFFICEXMEETXSEXLED,Mixing/Well-Stirred
+! <AirflowNetwork Model:Control>, No Multizone or Distribution/Multizone with Distribution/Multizone without Distribution/Multizone with Distribution only during Fan Operation
+AirflowNetwork Model:Control,NoMultizoneOrDistribution
+! <Zone Volume Capacitance Multiplier>, Sensible Heat Capacity Multiplier, Moisture Capacity Multiplier, Carbon Dioxide Capacity Multiplier, Generic Contaminant Capacity Multiplier
+Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
+! <Load Timesteps in Zone Design Calculation Averaging Window>, Value
+ Load Timesteps in Zone Design Calculation Averaging Window,    2
+! <Heating Sizing Factor Information>, Sizing Factor ID, Value
+ Heating Sizing Factor Information, Global,   1.2500    
+ Heating Sizing Factor Information, Zone 02PLENUM:VOID,   1.2500    
+ Heating Sizing Factor Information, Zone 02FFE:OFFICEXNEXLED,   1.2500    
+ Heating Sizing Factor Information, Zone 02FFE:OFFICEXE,   1.2500    
+ Heating Sizing Factor Information, Zone 02FFE:OFFICEXMEETXSE,   1.2500    
+ Heating Sizing Factor Information, Zone 02FFE:OFFICEXMEETXSSE,   1.2500    
+ Heating Sizing Factor Information, Zone 02FFE:OFFICEXMEETXSSEXLED,   1.2500    
+ Heating Sizing Factor Information, Zone 02FFE:OFFICEXNE,   1.2500    
+ Heating Sizing Factor Information, Zone 02FFE:OFFICEXN,   1.2500    
+ Heating Sizing Factor Information, Zone 02FFE:OFFICEXMEETXSEXLED,   1.2500    
+! <Cooling Sizing Factor Information>, Sizing Factor ID, Value
+ Cooling Sizing Factor Information, Global,   1.1500    
+ Cooling Sizing Factor Information, Zone 02PLENUM:VOID,   1.1500    
+ Cooling Sizing Factor Information, Zone 02FFE:OFFICEXNEXLED,   1.1500    
+ Cooling Sizing Factor Information, Zone 02FFE:OFFICEXE,   1.1500    
+ Cooling Sizing Factor Information, Zone 02FFE:OFFICEXMEETXSE,   1.1500    
+ Cooling Sizing Factor Information, Zone 02FFE:OFFICEXMEETXSSE,   1.1500    
+ Cooling Sizing Factor Information, Zone 02FFE:OFFICEXMEETXSSEXLED,   1.1500    
+ Cooling Sizing Factor Information, Zone 02FFE:OFFICEXNE,   1.1500    
+ Cooling Sizing Factor Information, Zone 02FFE:OFFICEXN,   1.1500    
+ Cooling Sizing Factor Information, Zone 02FFE:OFFICEXMEETXSEXLED,   1.1500    
+! <Sky Daylight Factors>, MonthAndDay, Zone Name, Window Name, Daylight Fac: Ref Pt #1, Daylight Fac: Ref Pt #2
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_0_0_0_WIN,2.8113E-005,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_0_0_0_WIN,2.8027E-005,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_0_0_0_WIN,2.8114E-005,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_0_0_0_WIN,2.8795E-005,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_1_0_1_WIN,4.4188E-005,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_1_0_1_WIN,4.3616E-005,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_1_0_1_WIN,4.4701E-005,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_1_0_1_WIN,4.9936E-005,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_2_0_2_WIN,1.3106E-004,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_2_0_2_WIN,1.3006E-004,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_2_0_2_WIN,1.3331E-004,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_2_0_2_WIN,1.4484E-004,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_3_0_3_WIN,5.7246E-004,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_3_0_3_WIN,4.7543E-004,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_3_0_3_WIN,5.2301E-004,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_3_0_0_3_0_3_WIN,1.1095E-003,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_4_0_0_0_0_0_WIN,1.4817E-002,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_4_0_0_0_0_0_WIN,1.2143E-002,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_4_0_0_0_0_0_WIN,9.3563E-003,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXNEXLED,02FFE:OFFICEXNEXLED_WALL_4_0_0_0_0_0_WIN,1.6174E-002,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_0_0_0_WIN,9.7580E-007,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_0_0_0_WIN,9.7580E-007,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_0_0_0_WIN,9.7580E-007,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_0_0_0_WIN,9.7580E-007,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_1_0_1_WIN,6.2800E-007,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_1_0_1_WIN,6.2800E-007,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_1_0_1_WIN,6.2800E-007,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_1_0_1_WIN,6.2800E-007,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_2_0_2_WIN,1.8023E-007,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_2_0_2_WIN,1.8023E-007,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_2_0_2_WIN,1.8023E-007,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_2_0_2_WIN,1.8023E-007,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_3_0_3_WIN,1.3731E-006,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_3_0_3_WIN,1.3731E-006,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_3_0_3_WIN,1.3731E-006,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_3_0_3_WIN,1.3731E-006,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_4_0_4_WIN,1.2122E-005,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_4_0_4_WIN,9.1094E-006,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_4_0_4_WIN,4.0934E-006,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_4_0_4_WIN,7.1610E-006,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_5_0_5_WIN,6.8616E-008,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_5_0_5_WIN,6.8616E-008,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_5_0_5_WIN,6.8616E-008,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_5_0_5_WIN,6.8616E-008,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_6_0_6_WIN,6.8616E-008,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_6_0_6_WIN,6.8616E-008,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_6_0_6_WIN,6.8616E-008,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_3_0_0_6_0_6_WIN,6.8616E-008,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_4_0_0_0_0_0_WIN,7.8210E-022,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_4_0_0_0_0_0_WIN,7.8210E-022,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_4_0_0_0_0_0_WIN,7.8210E-022,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXE,02FFE:OFFICEXE_WALL_4_0_0_0_0_0_WIN,7.8210E-022,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSE,02FFE:OFFICEXMEETXSE_WALL_4_0_0_0_0_0_WIN,4.2978E-011,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSE,02FFE:OFFICEXMEETXSE_WALL_4_0_0_0_0_0_WIN,4.2978E-011,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSE,02FFE:OFFICEXMEETXSE_WALL_4_0_0_0_0_0_WIN,4.2978E-011,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSE,02FFE:OFFICEXMEETXSE_WALL_4_0_0_0_0_0_WIN,4.2978E-011,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSE,02FFE:OFFICEXMEETXSE_WALL_4_0_0_1_0_1_WIN,6.6248E-006,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSE,02FFE:OFFICEXMEETXSE_WALL_4_0_0_1_0_1_WIN,6.6248E-006,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSE,02FFE:OFFICEXMEETXSE_WALL_4_0_0_1_0_1_WIN,6.6248E-006,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSE,02FFE:OFFICEXMEETXSE_WALL_4_0_0_1_0_1_WIN,6.6248E-006,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSSEXLED,02FFE:OFFICEXMEETXSSEXLED_WALL_2_0_0_0_0_0_WIN,2.0116E-005,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSSEXLED,02FFE:OFFICEXMEETXSSEXLED_WALL_2_0_0_0_0_0_WIN,2.0116E-005,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSSEXLED,02FFE:OFFICEXMEETXSSEXLED_WALL_2_0_0_0_0_0_WIN,2.0116E-005,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSSEXLED,02FFE:OFFICEXMEETXSSEXLED_WALL_2_0_0_0_0_0_WIN,2.0116E-005,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSSEXLED,02FFE:OFFICEXMEETXSSEXLED_WALL_2_0_0_1_0_1_WIN,9.7905E-006,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSSEXLED,02FFE:OFFICEXMEETXSSEXLED_WALL_2_0_0_1_0_1_WIN,9.7905E-006,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSSEXLED,02FFE:OFFICEXMEETXSSEXLED_WALL_2_0_0_1_0_1_WIN,9.7905E-006,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSSEXLED,02FFE:OFFICEXMEETXSSEXLED_WALL_2_0_0_1_0_1_WIN,9.7905E-006,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXN,02FFE:OFFICEXN_WALL_7_0_0_0_0_0_WIN,1.5340E-003,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXN,02FFE:OFFICEXN_WALL_7_0_0_0_0_0_WIN,1.3281E-003,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXN,02FFE:OFFICEXN_WALL_7_0_0_0_0_0_WIN,1.2364E-003,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXN,02FFE:OFFICEXN_WALL_7_0_0_0_0_0_WIN,1.8939E-003,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXN,02FFE:OFFICEXN_WALL_7_0_0_1_0_1_WIN,4.8462E-003,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXN,02FFE:OFFICEXN_WALL_7_0_0_1_0_1_WIN,4.2035E-003,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXN,02FFE:OFFICEXN_WALL_7_0_0_1_0_1_WIN,4.0926E-003,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXN,02FFE:OFFICEXN_WALL_7_0_0_1_0_1_WIN,6.3151E-003,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXN,02FFE:OFFICEXN_WALL_7_0_0_2_0_2_WIN,2.2210E-002,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXN,02FFE:OFFICEXN_WALL_7_0_0_2_0_2_WIN,1.7921E-002,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXN,02FFE:OFFICEXN_WALL_7_0_0_2_0_2_WIN,1.4998E-002,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXN,02FFE:OFFICEXN_WALL_7_0_0_2_0_2_WIN,2.7981E-002,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSEXLED,02FFE:OFFICEXMEETXSEXLED_WALL_2_0_0_0_0_0_WIN,6.0729E-005,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSEXLED,02FFE:OFFICEXMEETXSEXLED_WALL_2_0_0_0_0_0_WIN,6.0729E-005,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSEXLED,02FFE:OFFICEXMEETXSEXLED_WALL_2_0_0_0_0_0_WIN,6.0729E-005,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSEXLED,02FFE:OFFICEXMEETXSEXLED_WALL_2_0_0_0_0_0_WIN,6.0729E-005,0.0000
+ Clear Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSEXLED,02FFE:OFFICEXMEETXSEXLED_WALL_2_0_0_1_0_1_WIN,1.8334E-005,0.0000
+ Clear Turbid Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSEXLED,02FFE:OFFICEXMEETXSEXLED_WALL_2_0_0_1_0_1_WIN,1.8334E-005,0.0000
+ Intermediate Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSEXLED,02FFE:OFFICEXMEETXSEXLED_WALL_2_0_0_1_0_1_WIN,1.8334E-005,0.0000
+ Overcast Sky Daylight Factors,07/15,02FFE:OFFICEXMEETXSEXLED,02FFE:OFFICEXMEETXSEXLED_WALL_2_0_0_1_0_1_WIN,1.8334E-005,0.0000
+! <Zone Sizing Information>, Zone Name, Load Type, Calc Des Load {W}, User Des Load {W}, Calc Des Air Flow Rate {m3/s}, User Des Air Flow Rate {m3/s}, Design Day Name, Date/Time of Peak, Temperature at Peak {C}, Humidity Ratio at Peak {kgWater/kgDryAir}, Floor Area {m2}, # Occupants, Calc Outdoor Air Flow Rate {m3/s}, Calc DOAS Heat Addition Rate {W}
+ Zone Sizing Information, 02PLENUM:VOID, Cooling, 48478.66128, 55750.46047, 6.59475, 7.58397, SUMMER DESIGN DAY IN INOVO TEST (01-05:20-06) JUL, 7/15 14:03:00, 23.10000, 9.73681E-003, 1061.20110, 0.00000, 1.06120, 0.00000
+ Zone Sizing Information, 02PLENUM:VOID, Heating, 251904.30670, 314880.38338, 11.82512, 14.78140, WINTER DESIGN DAY IN INOVO TEST (01-05:20-06), 1/15 24:00:00, -6.10000, 2.25430E-003, 1061.20110, 0.00000, 1.06120, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXNEXLED, Cooling, 0.00000, 0.00000, 0.00000, 2.10391E-002, SUMMER DESIGN DAY IN INOVO TEST (01-05:20-06) JUL, , 23.10000, 9.73681E-003, 11.42120, 2.10391, 2.10391E-002, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXNEXLED, Heating, 3601.10034, 4501.37543, 0.18430, 0.23038, WINTER DESIGN DAY IN INOVO TEST (01-05:20-06), 1/15 24:00:00, -6.10000, 2.25430E-003, 11.42120, 2.10391, 2.10391E-002, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXE, Cooling, 0.00000, 0.00000, 0.00000, 0.32419, SUMMER DESIGN DAY IN INOVO TEST (01-05:20-06) JUL, , 23.10000, 9.73681E-003, 175.98940, 32.41910, 0.32419, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXE, Heating, 45197.05102, 56496.31378, 2.31319, 2.89148, WINTER DESIGN DAY IN INOVO TEST (01-05:20-06), 1/15 24:00:00, -6.10000, 2.25430E-003, 175.98940, 32.41910, 0.32419, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXMEETXSE, Cooling, 0.00000, 0.00000, 0.00000, 3.33119E-002, SUMMER DESIGN DAY IN INOVO TEST (01-05:20-06) JUL, , 23.10000, 9.73681E-003, 18.08360, 3.33119, 3.33119E-002, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXMEETXSE, Heating, 4740.06568, 5925.08210, 0.24261, 0.30326, WINTER DESIGN DAY IN INOVO TEST (01-05:20-06), 1/15 24:00:00, -6.10000, 2.25430E-003, 18.08360, 3.33119, 3.33119E-002, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXMEETXSSE, Cooling, 0.00000, 0.00000, 0.00000, 1.99653E-002, SUMMER DESIGN DAY IN INOVO TEST (01-05:20-06) JUL, , 23.10000, 9.73681E-003, 10.83830, 1.99653, 1.99653E-002, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXMEETXSSE, Heating, 2735.27763, 3419.09704, 0.14001, 0.17501, WINTER DESIGN DAY IN INOVO TEST (01-05:20-06), 1/15 24:00:00, -6.10000, 2.25430E-003, 10.83830, 1.99653, 1.99653E-002, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXMEETXSSEXLED, Cooling, 0.00000, 0.00000, 0.00000, 7.03132E-003, SUMMER DESIGN DAY IN INOVO TEST (01-05:20-06) JUL, , 23.10000, 9.73681E-003, 3.81700, 0.70313, 7.03132E-003, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXMEETXSSEXLED, Heating, 1129.44612, 1411.80765, 5.78114E-002, 7.22642E-002, WINTER DESIGN DAY IN INOVO TEST (01-05:20-06), 1/15 24:00:00, -6.10000, 2.25430E-003, 3.81700, 0.70313, 7.03132E-003, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXNE, Cooling, 0.00000, 0.00000, 0.00000, 5.00542E-002, SUMMER DESIGN DAY IN INOVO TEST (01-05:20-06) JUL, , 23.10000, 9.73681E-003, 27.17230, 5.00542, 5.00542E-002, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXNE, Heating, 6868.20112, 8585.25140, 0.35153, 0.43941, WINTER DESIGN DAY IN INOVO TEST (01-05:20-06), 1/15 24:00:00, -6.10000, 2.25430E-003, 27.17230, 5.00542, 5.00542E-002, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXN, Cooling, 0.00000, 0.00000, 0.00000, 0.16811, SUMMER DESIGN DAY IN INOVO TEST (01-05:20-06) JUL, , 23.10000, 9.73681E-003, 91.25960, 16.81098, 0.16811, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXN, Heating, 24203.48393, 30254.35491, 1.23872, 1.54841, WINTER DESIGN DAY IN INOVO TEST (01-05:20-06), 1/15 24:00:00, -6.10000, 2.25430E-003, 91.25960, 16.81098, 0.16811, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXMEETXSEXLED, Cooling, 0.00000, 0.00000, 0.00000, 1.19783E-002, SUMMER DESIGN DAY IN INOVO TEST (01-05:20-06) JUL, , 23.10000, 9.73681E-003, 6.50250, 1.19783, 1.19783E-002, 0.00000
+ Zone Sizing Information, 02FFE:OFFICEXMEETXSEXLED, Heating, 1166.92640, 1458.65800, 5.97845E-002, 7.47306E-002, WINTER DESIGN DAY IN INOVO TEST (01-05:20-06), 1/15 24:00:00, -6.10000, 2.25430E-003, 6.50250, 1.19783, 1.19783E-002, 0.00000
+! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02PLENUM:VOID IDEAL LOADS AIR, Design Size Maximum Heating Air Flow Rate [m3/s], 14.78140
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02PLENUM:VOID IDEAL LOADS AIR, Design Size Maximum Sensible Heating Capacity [W], 500000.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02PLENUM:VOID IDEAL LOADS AIR, User-Specified Maximum Sensible Heating Capacity [W], 500000.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02PLENUM:VOID IDEAL LOADS AIR, Design Size Maximum Cooling Air Flow Rate [m3/s], 7.58397
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02PLENUM:VOID IDEAL LOADS AIR, Design Size Maximum Total Cooling Capacity [W], 6800.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02PLENUM:VOID IDEAL LOADS AIR, User-Specified Maximum Total Cooling Capacity [W], 6800.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXNEXLED IDEAL LOADS AIR, Design Size Maximum Heating Air Flow Rate [m3/s], 0.23038
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXNEXLED IDEAL LOADS AIR, Design Size Maximum Sensible Heating Capacity [W], 1654.51297
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXNEXLED IDEAL LOADS AIR, User-Specified Maximum Sensible Heating Capacity [W], 1654.51297
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXNEXLED IDEAL LOADS AIR, Design Size Maximum Cooling Air Flow Rate [m3/s], 2.10391E-002
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXNEXLED IDEAL LOADS AIR, Design Size Maximum Total Cooling Capacity [W], 1436.40454
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXNEXLED IDEAL LOADS AIR, User-Specified Maximum Total Cooling Capacity [W], 1436.40454
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXE IDEAL LOADS AIR, Design Size Maximum Heating Air Flow Rate [m3/s], 2.89148
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXE IDEAL LOADS AIR, Design Size Maximum Sensible Heating Capacity [W], 25494.40906
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXE IDEAL LOADS AIR, User-Specified Maximum Sensible Heating Capacity [W], 25494.40906
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXE IDEAL LOADS AIR, Design Size Maximum Cooling Air Flow Rate [m3/s], 0.32419
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXE IDEAL LOADS AIR, Design Size Maximum Total Cooling Capacity [W], 22133.57378
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXE IDEAL LOADS AIR, User-Specified Maximum Total Cooling Capacity [W], 22133.57378
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSE IDEAL LOADS AIR, Design Size Maximum Heating Air Flow Rate [m3/s], 0.30326
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSE IDEAL LOADS AIR, Design Size Maximum Sensible Heating Capacity [W], 2619.65036
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSE IDEAL LOADS AIR, User-Specified Maximum Sensible Heating Capacity [W], 2619.65036
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSE IDEAL LOADS AIR, Design Size Maximum Cooling Air Flow Rate [m3/s], 3.33119E-002
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSE IDEAL LOADS AIR, Design Size Maximum Total Cooling Capacity [W], 2274.31138
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSE IDEAL LOADS AIR, User-Specified Maximum Total Cooling Capacity [W], 2274.31138
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR, Design Size Maximum Heating Air Flow Rate [m3/s], 0.17501
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR, Design Size Maximum Sensible Heating Capacity [W], 1570.07214
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR, User-Specified Maximum Sensible Heating Capacity [W], 1570.07214
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR, Design Size Maximum Cooling Air Flow Rate [m3/s], 1.99653E-002
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR, Design Size Maximum Total Cooling Capacity [W], 1363.09524
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSSE IDEAL LOADS AIR, User-Specified Maximum Total Cooling Capacity [W], 1363.09524
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR, Design Size Maximum Heating Air Flow Rate [m3/s], 7.22642E-002
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR, Design Size Maximum Sensible Heating Capacity [W], 552.94330
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR, User-Specified Maximum Sensible Heating Capacity [W], 552.94330
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR, Design Size Maximum Cooling Air Flow Rate [m3/s], 7.03132E-003
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR, Design Size Maximum Total Cooling Capacity [W], 480.05079
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSSEXLED IDEAL LOADS AIR, User-Specified Maximum Total Cooling Capacity [W], 480.05079
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXNE IDEAL LOADS AIR, Design Size Maximum Heating Air Flow Rate [m3/s], 0.43941
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXNE IDEAL LOADS AIR, Design Size Maximum Sensible Heating Capacity [W], 3936.26963
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXNE IDEAL LOADS AIR, User-Specified Maximum Sensible Heating Capacity [W], 3936.26963
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXNE IDEAL LOADS AIR, Design Size Maximum Cooling Air Flow Rate [m3/s], 5.00542E-002
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXNE IDEAL LOADS AIR, Design Size Maximum Total Cooling Capacity [W], 3417.36552
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXNE IDEAL LOADS AIR, User-Specified Maximum Total Cooling Capacity [W], 3417.36552
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXN IDEAL LOADS AIR, Design Size Maximum Heating Air Flow Rate [m3/s], 1.54841
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXN IDEAL LOADS AIR, Design Size Maximum Sensible Heating Capacity [W], 13220.16879
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXN IDEAL LOADS AIR, User-Specified Maximum Sensible Heating Capacity [W], 13220.16879
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXN IDEAL LOADS AIR, Design Size Maximum Cooling Air Flow Rate [m3/s], 0.16811
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXN IDEAL LOADS AIR, Design Size Maximum Total Cooling Capacity [W], 11477.40199
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXN IDEAL LOADS AIR, User-Specified Maximum Total Cooling Capacity [W], 11477.40199
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR, Design Size Maximum Heating Air Flow Rate [m3/s], 7.47306E-002
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR, Design Size Maximum Sensible Heating Capacity [W], 941.97375
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR, User-Specified Maximum Sensible Heating Capacity [W], 941.97375
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR, Design Size Maximum Cooling Air Flow Rate [m3/s], 1.19783E-002
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR, Design Size Maximum Total Cooling Capacity [W], 817.79677
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 02FFE:OFFICEXMEETXSEXLED IDEAL LOADS AIR, User-Specified Maximum Total Cooling Capacity [W], 817.79677
+! <Environment>,Environment Name,Environment Type, Start Date, End Date, Start DayOfWeek, Duration {#days}, Source:Start DayOfWeek,  Use Daylight Saving, Use Holidays, Apply Weekend Holiday Rule,  Use Rain Values, Use Snow Values
+! <Environment:Special Days>, Special Day Name, Special Day Type, Source, Start Date, Duration {#days}
+! <Environment:Daylight Saving>, Daylight Saving Indicator, Source, Start Date, End Date
+! <Environment:WarmupDays>, NumberofWarmupDays
+Environment,INOVO TEST (01-05:20-06),WeatherFileRunPeriod,05/15,06/19,Monday,36,UseWeatherFile,No,No,Yes,Yes,Yes
+Environment:Daylight Saving,Yes,InputFile,03/26,10/29
+Environment:Special Days,NEW YEARS DAY,Holiday,InputFile,01/01,  1
+Environment:Special Days,CHRISTMAS DAY,Holiday,InputFile,12/25,  1
+Environment:Special Days,BOXING DAY,Holiday,InputFile,12/26,  1
+Environment:Special Days,EASTER MONDAY,Holiday,InputFile,04/10,  1
+Environment:Special Days,EASTER SUNDAY,Holiday,InputFile,04/02,  1
+Environment:WarmupDays, 14
+! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
+ Warmup Convergence Information,02PLENUM:VOID,RunPeriod: INOVO TEST (01-05:20-06),2.8956185898E-002,0.1352601918,Pass,Pass,3.2177277787E-002,0.1116520868,Pass,Pass
+ Warmup Convergence Information,02FFE:OFFICEXNEXLED,RunPeriod: INOVO TEST (01-05:20-06),3.5836841623E-002,0.1940953254,Pass,Pass,8.0647845813E-002,0.2860619644,Pass,Pass
+ Warmup Convergence Information,02FFE:OFFICEXE,RunPeriod: INOVO TEST (01-05:20-06),3.1641451739E-002,0.1982513665,Pass,Pass,5.5780173025E-002,0.3311809879,Pass,Pass
+ Warmup Convergence Information,02FFE:OFFICEXMEETXSE,RunPeriod: INOVO TEST (01-05:20-06),3.0519671415E-002,0.1957032157,Pass,Pass,4.7177966306E-002,0.3171571973,Pass,Pass
+ Warmup Convergence Information,02FFE:OFFICEXMEETXSSE,RunPeriod: INOVO TEST (01-05:20-06),3.4810893619E-002,0.1961803579,Pass,Pass,7.5871694648E-002,0.3407073198,Pass,Pass
+ Warmup Convergence Information,02FFE:OFFICEXMEETXSSEXLED,RunPeriod: INOVO TEST (01-05:20-06),2.4055594178E-002,0.1936109316,Pass,Pass,4.7186370019E-002,0.2728176864,Pass,Pass
+ Warmup Convergence Information,02FFE:OFFICEXNE,RunPeriod: INOVO TEST (01-05:20-06),3.5163256836E-002,0.1992131331,Pass,Pass,6.3528812783E-002,0.2867269725,Pass,Pass
+ Warmup Convergence Information,02FFE:OFFICEXN,RunPeriod: INOVO TEST (01-05:20-06),3.3876730556E-002,0.1980745051,Pass,Pass,7.5002193581E-002,0.3096074171,Pass,Pass
+ Warmup Convergence Information,02FFE:OFFICEXMEETXSEXLED,RunPeriod: INOVO TEST (01-05:20-06),4.5704166112E-002,0.2028357841,Pass,Pass,0.1381347911,0.4358929396,Pass,Pass
+! <ConductionFiniteDifference Numerical Parameters>, Starting Relaxation Factor, Final Relaxation Factor
+ConductionFiniteDifference Numerical Parameters, 1.000, 0.810
+! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
+Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
+End of Data
