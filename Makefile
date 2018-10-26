@@ -14,7 +14,7 @@ install:
 run:
 	$(RM) test-out/* 
 	cp test-in/* test-out/
-	docker run -it --rm -v $(CURDIR)/test-out:/var/simdata $(NAME) EnergyPlus --idd /usr/local/EnergyPlus-8-9-0/Energy+.idd -r -x -m
+	docker run -it --rm -v $(CURDIR)/test-out:/var/simdata $(NAME) EnergyPlus --idd /usr/local/EnergyPlus-9-0-1/Energy+.idd -r -x -m
 
 processor-up:
 	docker-machine create --driver digitalocean \

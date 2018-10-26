@@ -3,12 +3,12 @@ FROM ubuntu:14.04
 MAINTAINER Nicholas Long nicholas.long@nrel.gov
 
 # This is not ideal. The tarballs are not named nicely and EnergyPlus versioning is strange
-ENV ENERGYPLUS_VERSION 8.9.0
-ENV ENERGYPLUS_TAG v8.9.0-OutputVarScript
-ENV ENERGYPLUS_SHA 30f4ebd739
+ENV ENERGYPLUS_VERSION 9.0.1
+ENV ENERGYPLUS_TAG v9.0.1
+ENV ENERGYPLUS_SHA bb7ca4f0da
 
 # This should be x.y.z, but EnergyPlus convention is x-y-z
-ENV ENERGYPLUS_INSTALL_VERSION 8-9-0
+ENV ENERGYPLUS_INSTALL_VERSION 9-0-1
 
 # Downloading from Github
 # e.g. https://github.com/NREL/EnergyPlus/releases/download/v8.3.0/EnergyPlus-8.3.0-6d97d074ea-Linux-x86_64.sh
@@ -35,9 +35,9 @@ RUN cd /usr/local/bin \
     && find -L . -type l -delete
 
 # Add in the test files
-ADD test /usr/local/EnergyPlus-$ENERGYPLUS_INSTALL_VERSION/test_run
-RUN cp /usr/local/EnergyPlus-$ENERGYPLUS_INSTALL_VERSION/Energy+.idd \
-        /usr/local/EnergyPlus-$ENERGYPLUS_INSTALL_VERSION/test_run/
+#ADD test /usr/local/EnergyPlus-$ENERGYPLUS_INSTALL_VERSION/test_run
+#RUN cp /usr/local/EnergyPlus-$ENERGYPLUS_INSTALL_VERSION/Energy+.idd \
+#        /usr/local/EnergyPlus-$ENERGYPLUS_INSTALL_VERSION/test_run/
 
 VOLUME /var/simdata
 WORKDIR /var/simdata
